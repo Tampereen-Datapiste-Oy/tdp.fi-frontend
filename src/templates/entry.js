@@ -236,27 +236,27 @@ const EntryTemplate = ({ data, pageContext, children }) => {
         const title = mdx.frontmatter.head?.title || mdx.frontmatter.title;
         const titleSlug = slugify(title);
         return (
-        <ArticleContainer>
-          <ArticleContentContainer>
-            <ArticleMetadata>
-              <p className="date_desktop">
-                <ArticleDate>{mdx.frontmatter.date}</ArticleDate>
-              </p>
-              <TableOfContents headings={mdx.tableOfContents} title={title} titleSlug={titleSlug} />
-            </ArticleMetadata>
+          <ArticleContainer>
+            <ArticleContentContainer>
+              <ArticleMetadata>
+                <p className="date_desktop">
+                  <ArticleDate>{mdx.frontmatter.date}</ArticleDate>
+                </p>
+                <TableOfContents headings={mdx.tableOfContents} title={title} titleSlug={titleSlug} />
+              </ArticleMetadata>
 
-            <ArticleContent>
-              <ArticleTitle id={titleSlug}>
-                {title}
-              </ArticleTitle>
-              <p className="date_mobile">
-                <ArticleDate>{mdx.frontmatter.date}</ArticleDate>
-              </p>
+              <ArticleContent>
+                <ArticleTitle id={titleSlug}>
+                  {title}
+                </ArticleTitle>
+                <p className="date_mobile">
+                  <ArticleDate>{mdx.frontmatter.date}</ArticleDate>
+                </p>
 
-              <MDXProvider components={componentsWithData}>{children}</MDXProvider>
-            </ArticleContent>
-          </ArticleContentContainer>
-        </ArticleContainer>
+                <MDXProvider components={componentsWithData}>{children}</MDXProvider>
+              </ArticleContent>
+            </ArticleContentContainer>
+          </ArticleContainer>
         );
       })()}
 
