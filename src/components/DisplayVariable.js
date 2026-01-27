@@ -3,6 +3,18 @@ import { graphql, useStaticQuery } from "gatsby"
 import theme from "../theme"
 import styled from "styled-components"
 
+const VariableDisplayP = styled.p`
+  display: inline;
+  font-family: ${theme.bodyFontFamily};
+  font-weight: ${props => (props.$bold ? "bold" : "normal")};
+`
+
+const VariableDisplaySpan = styled.span`
+  display: block;
+  font-family: ${theme.headingFontFamily};
+  font-weight: ${props => (props.$bold ? "bold" : "normal")};
+`
+
 /**
  * Displays the value of a variable stored in file variables.json
  * @param {Object} props
@@ -25,20 +37,18 @@ const DisplayVariable = ({ variableKey, tag = "p", bold = false, isInline = fals
     }
   `)
 
-  const VariableDisplay = styled(tag)`
-    display: ${tag === "p" ? "inline" : "block"};
-    font-family: ${tag === "p"
-      ? theme.bodyFontFamily
-      : theme.headingFontFamily};
-    font-weight: ${props => (props.bold ? "bold" : "normal")};
-  `
+  const value = data.variablesJson.variables.find(item => item.key === variableKey)?.value
+
+  if (isInline) {
+    return value || "Muuttujaa ei löytynyt"
+  }
+
+  const VariableDisplay = tag === "p" ? VariableDisplayP : VariableDisplaySpan
 
   return (
-    isInline ? `${data.variablesJson.variables.find(item => item.key === variableKey)?.value || "Muuttujaa ei löytynyt"}` :
-      <VariableDisplay bold={bold}>
-        {data.variablesJson.variables.find(item => item.key === variableKey)
-          ?.value || "N/A"}
-      </VariableDisplay>
+    <VariableDisplay $bold={bold}>
+      {value || "N/A"}
+    </VariableDisplay>
   )
 }
 

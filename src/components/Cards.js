@@ -14,7 +14,7 @@ const Cards = styled.div`
   display: grid;
   grid-template-columns: ${props => {
     let result = "1fr"
-    for (var i = 1; i < props.cardsPerRow; i++) {
+    for (var i = 1; i < props.$cardsPerRow; i++) {
       result = result + " 1fr"
     }
     return result
@@ -36,12 +36,12 @@ const Card = styled.div`
     font-size: 140%;
     font-family: ${props => props.theme.headingFontFamily};
   }
-  background-color: ${props => props.bgColor};
+  background-color: ${props => props.$bgColor};
   color: ${props =>
-    getContrast(props.theme.colors.darkest, props.bgColor) > 10
+    getContrast(props.theme.colors.darkest, props.$bgColor) > 10
       ? props.theme.colors.darkest
       : props.theme.colors.lightest};
-  border: 1px solid ${props => shade(0.2, props.bgColor)};
+  border: 1px solid ${props => shade(0.2, props.$bgColor)};
 `
 
 const CardsComponent = ({
@@ -54,7 +54,7 @@ const CardsComponent = ({
   cards = JSON.parse(cards)
   
   return (
-    <Cards cardsPerRow={cardsPerRow} $noMargin={$noMargin}>
+    <Cards $cardsPerRow={cardsPerRow} $noMargin={$noMargin}>
       {cards.map(card => {
         let bg = theme.colors[card.bgColor] || theme.colors.lightest
 
@@ -66,7 +66,7 @@ const CardsComponent = ({
         const imageData = getImage(imageNode)
 
         return (
-          <Card bgColor={bg} key={formatKey(card.title)}>
+          <Card $bgColor={bg} key={formatKey(card.title)}>
             {card.image && (
               <div style={{ textAlign: "center" }}>
                 {imageData ? (

@@ -63,15 +63,15 @@ const MenuItems = styled.nav`
     -o-backdrop-filter: blur(20px);
     -moz-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    transform: translateX(${props => (props.isClosing ? "100%" : "0%")});
+    transform: translateX(${props => (props.$isClosing ? "100%" : "0%")});
     width: 100%;
     height: 100%;
     z-index: 99;
 
     /* only render on mobile, and only when open */
-    display: ${props => (props.isOpen ? "block" : "none")};
+    display: ${props => (props.$isOpen ? "block" : "none")};
 
-    animation: ${props => (props.isClosing ? slideOut : slideIn)} 0.2s ease-in;
+    animation: ${props => (props.$isClosing ? slideOut : slideIn)} 0.2s ease-in;
     padding: 40px 10px 10px 10px;
     box-shadow: 0 0 6px ${props => props.theme.colors.darkest};
     box-sizing: border-box;
@@ -211,7 +211,7 @@ function Navigation() {
       </BurgerMenu>
 
       {/* Mobile overlay */}
-      <MenuItems isOpen={isOpen} isClosing={isClosing} role="dialog" aria-modal="true" aria-label="Mobile menu">
+      <MenuItems $isOpen={isOpen} $isClosing={isClosing} role="dialog" aria-modal="true" aria-label="Mobile menu">
         <CloseButton onClick={() => openMenu(false)} aria-label="Close menu">×</CloseButton>
 
         {settings.navigation.map((navItem) => (
