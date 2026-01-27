@@ -3,15 +3,9 @@ import { graphql, useStaticQuery } from "gatsby"
 import theme from "../theme"
 import styled from "styled-components"
 
-const VariableDisplayP = styled.p`
-  display: inline;
-  font-family: ${theme.bodyFontFamily};
-  font-weight: ${props => (props.$bold ? "bold" : "normal")};
-`
-
-const VariableDisplaySpan = styled.span`
-  display: block;
-  font-family: ${theme.headingFontFamily};
+const VariableDisplay = styled.span`
+  display: ${props => (props.$tag === "p" ? "inline" : "block")};
+  font-family: ${props => (props.$tag === "p" ? theme.bodyFontFamily : theme.headingFontFamily)};
   font-weight: ${props => (props.$bold ? "bold" : "normal")};
 `
 
@@ -19,7 +13,7 @@ const VariableDisplaySpan = styled.span`
  * Displays the value of a variable stored in file variables.json
  * @param {Object} props
  * @param {string} props.variableKey - Key of the variable to show
- * @param {string} {props.type} - HTML tag to display the value in, defaults to "p"
+ * @param {string} [props.tag] - HTML tag to display the value in ("p", "h1"-"h6"), defaults to "p"
  * @param {boolean} [props.bold] - Should text be bold, defaults to false
  * @param {boolean} [props.isInline] - Is the variable displayed inline with text? Defaults to false.
  * @returns {React.Component} Component displaying the value of a variable
@@ -43,10 +37,8 @@ const DisplayVariable = ({ variableKey, tag = "p", bold = false, isInline = fals
     return value || "Muuttujaa ei löytynyt"
   }
 
-  const VariableDisplay = tag === "p" ? VariableDisplayP : VariableDisplaySpan
-
   return (
-    <VariableDisplay $bold={bold}>
+    <VariableDisplay as={tag} $tag={tag} $bold={bold}>
       {value || "N/A"}
     </VariableDisplay>
   )
