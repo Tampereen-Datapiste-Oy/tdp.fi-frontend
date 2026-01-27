@@ -52,10 +52,14 @@ const CardsComponent = ({
   $noMargin = false,
 }) => {
   cards = JSON.parse(cards)
-  
+
+  // Use an incrementing index for the key in case one of more cards don't have
+  // a title.
+  const cardsHaveTitles = cards.every(c => c.title);
+
   return (
     <Cards $cardsPerRow={cardsPerRow} $noMargin={$noMargin}>
-      {cards.map(card => {
+      {cards.map((card, index) => {
         let bg = theme.colors[card.bgColor] || theme.colors.lightest
 
         const cleanPath = card.image?.replace(/^\/*(assets\/)?/, "")
@@ -66,7 +70,7 @@ const CardsComponent = ({
         const imageData = getImage(imageNode)
 
         return (
-          <Card $bgColor={bg} key={formatKey(card.title)}>
+          <Card $bgColor={bg} key={cardsHaveTitles ? formatKey(card.title) : index}>
             {card.image && (
               <div style={{ textAlign: "center" }}>
                 {imageData ? (
