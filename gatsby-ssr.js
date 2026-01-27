@@ -1,31 +1,24 @@
 /**
- * SSR for MUI v7 (Emotion) + your GTM head script
+ * SSR configuration for MUI + styled-components
+ *
+ * Uses wrapRootElement (matching gatsby-browser.js) for consistent
+ * component tree between SSR and client-side navigation.
+ *
+ * Emotion SSR is handled by gatsby-plugin-emotion.
+ * styled-components SSR is handled by gatsby-plugin-styled-components.
  */
-const React = require("react")
-const { renderToString } = require("react-dom/server")
-const { CacheProvider } = require("@emotion/react")
-const createEmotionServer = require("@emotion/server/create-instance").default
-const createEmotionCache = require("./src/createEmotionCache")
-const CssBaseline = require("@mui/material/CssBaseline").default
-const {
-  ThemeProvider: MuiThemeProvider,
-  createTheme,
-} = require("@mui/material/styles")
-const {
-  ThemeProvider: ScThemeProvider,
-  ServerStyleSheet,
-} = require("styled-components")
+import React from "react"
+import { CacheProvider } from "@emotion/react"
+import createEmotionCache from "./src/createEmotionCache"
+import { ThemeProvider as MuiThemeProvider } from "@mui/material/styles"
+import { ThemeProvider as ScThemeProvider } from "styled-components"
+import CssBaseline from "@mui/material/CssBaseline"
+import theme from "./src/theme"
 
-// Try to use your theme if present; fall back to a blank theme
-let theme
-try {
-  const t = require("./src/theme")
-  theme = t.default || t
-} catch (e) {
-  theme = createTheme({})
-}
+// Create a server-side emotion cache
+const serverEmotionCache = createEmotionCache()
 
-// Keep your GTM originalLocation script
+// GTM originalLocation script and emotion insertion point
 const HeadComponents = [
   <meta
     key="emotion-insertion-point"
@@ -48,50 +41,19 @@ const HeadComponents = [
   />,
 ]
 
-exports.onRenderBody = ({ setHeadComponents }) => {
+export const onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents(HeadComponents)
 }
 
-// Extract critical CSS for Emotion/MUI during SSR (prevents FOUC)
-exports.replaceRenderer = ({
-  bodyComponent,
-  replaceBodyHTMLString,
-  setHeadComponents,
-}) => {
-  const cache = createEmotionCache()
-  const { extractCriticalToChunks } = createEmotionServer(cache)
-
-  const sheet = new ServerStyleSheet()
-
-  try {
-    const app = (
-      <CacheProvider value={cache}>
-        <MuiThemeProvider theme={theme}>
-          <ScThemeProvider theme={theme}>
-            <CssBaseline />
-            {bodyComponent}
-          </ScThemeProvider>
-        </MuiThemeProvider>
-      </CacheProvider>
-    )
-
-    const html = renderToString(sheet.collectStyles(app))
-    const chunks = extractCriticalToChunks(html)
-
-    const emotionStyleTags = chunks.styles.map(style => (
-      <style
-        data-emotion={`${style.key} ${style.ids.join(" ")}`}
-        key={style.key}
-        dangerouslySetInnerHTML={{ __html: style.css }}
-      />
-    ))
-
-    const styledComponentsStyleTags = sheet.getStyleElement()
-
-    replaceBodyHTMLString(html)
-
-    setHeadComponents([...emotionStyleTags, ...styledComponentsStyleTags])
-  } finally {
-    sheet.seal()
-  }
-}
+// Use wrapRootElement to match gatsby-browser.js structure
+// This ensures consistent component tree between SSR and CSR
+export const wrapRootElement = ({ element }) => (
+  <CacheProvider value={serverEmotionCache}>
+    <MuiThemeProvider theme={theme}>
+      <ScThemeProvider theme={theme}>
+        <CssBaseline />
+        {element}
+      </ScThemeProvider>
+    </MuiThemeProvider>
+  </CacheProvider>
+)
