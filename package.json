@@ -48,6 +48,7 @@
     "gatsby-transformer-json": "^5.14.0",
     "gatsby-transformer-sharp": "^5.14.0",
     "immutable": "^3.8.2",
+    "markdown-table": "^3.0.4",
     "marked": "^1.2.8",
     "polished": "^4.3.1",
     "prop-types": "^15.8.1",

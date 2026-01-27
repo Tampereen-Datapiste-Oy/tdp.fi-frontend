@@ -2,6 +2,7 @@ import React, { useState, useMemo, useEffect, useRef } from "react"
 import Helmet from "react-helmet"
 import { getContrast, shade, lighten, darken } from "polished"
 import styled from "styled-components"
+import { markdownTable } from "markdown-table"
 
 import {
   FormControl,
@@ -19,16 +20,20 @@ import {
   Select,
   MenuItem,
   Divider,
+  Button,
+  Portal,
   toggleButtonClasses,
 } from "@mui/material"
 import AddIcon from "@mui/icons-material/Add"
 import RemoveIcon from "@mui/icons-material/Remove"
+import CloseIcon from "@mui/icons-material/Close"
 import PeopleOutlineIcon from "@mui/icons-material/PeopleOutline"
 import CreditCardIcon from "@mui/icons-material/CreditCard"
 import DevicesIcon from "@mui/icons-material/Devices"
 import DnsOutlinedIcon from "@mui/icons-material/DnsOutlined"
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined"
 import EventRepeatOutlinedIcon from "@mui/icons-material/EventRepeatOutlined"
+import CircularProgress from "@mui/material/CircularProgress"
 import { useTheme } from "@mui/material/styles"
 
 import Cards from "./Cards"
@@ -345,9 +350,559 @@ const CostBreakdownBox = styled(Box)`
   }
 `
 
+const FormButton = styled(Button).attrs({
+  variant: "contained",
+})`
+  background-color: ${({ theme }) => theme.palette.secondary.main};
+  color: ${({ theme }) => theme.palette.text.primary};
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 4px 4px 0 0;
+  border-radius: 5px;
+  border: 1px solid ${({ theme }) => shade(0.2, theme.palette.secondary.main)};
+  cursosr: pointer;
+  &:hover: {
+    background-color: ${({ theme }) =>
+      lighten(0.1, theme.palette.secondary.main)};
+    border: 1px solid ${({ theme }) => shade(0.5, theme.palette.secondary.main)};
+  }
+`
+
+const ModalOverlay = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1300;
+  padding: 1rem;
+`
+
+const ModalContent = styled(Box)`
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: ${({ theme }) => theme.palette.background.default};
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+  @media (max-width: 762px) {
+    max-width: 100%;
+    max-height: 95vh;
+  }
+`
+
+const ModalHeader = styled(Box)`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: ${({ theme }) => theme.palette.primary.main};
+  color: ${({ theme }) => theme.palette.background.default};
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+`
+
+const PackageSummarySection = styled(Box)`
+  padding: 1rem 1.5rem;
+  background-color: ${({ theme }) =>
+    darken(0.02, theme.palette.background.default)};
+  border-bottom: 1px solid
+    ${({ theme }) => lighten(0.5, theme.palette.primary.main)};
+`
+
+const FormSection = styled(Box)`
+  padding: 1.5rem;
+`
+
+const ModalLoadingOverlay = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  border-radius: 10px;
+`
+
+/**
+ * Builds a structured object containing all package details for submission.
+ */
+const buildPackageDetails = leasingPackage => {
+  const services = []
+  const checkboxServices = Object.keys(leasingPackage.servicesChecked)
+
+  for (const [key, value] of Object.entries(leasingPackage.services)) {
+    if (
+      checkboxServices.includes(key) &&
+      leasingPackage.servicesChecked[key] &&
+      value?.name
+    ) {
+      services.push({
+        name: value.name,
+        pricePerUser: value.price,
+        totalPrice: value.price * leasingPackage.userCount,
+      })
+    } else if (
+      !checkboxServices.includes(key) &&
+      typeof value === "object" &&
+      Object.keys(value).length > 0 &&
+      value?.name
+    ) {
+      services.push({
+        name: value.name,
+        pricePerUser: value.price,
+        totalPrice: value.price * leasingPackage.userCount,
+      })
+    }
+  }
+
+  return {
+    devices: leasingPackage.devices,
+    services,
+    userCount: leasingPackage.userCount,
+  }
+}
+
+/**
+ * Contact form modal sub-component for requesting a quote.
+ */
+const LeasingContactForm = ({
+  onClose,
+  leasingPackage,
+  devicesComputed,
+  totals,
+  interestRate,
+}) => {
+  const [formFields, setFormFields] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  })
+  const [errors, setErrors] = useState({})
+  const [isLoading, setIsLoading] = useState(false)
+  const [isSubmitSuccess, setIsSubmitSuccess] = useState(false)
+  const [isSubmitError, setIsSubmitError] = useState(false)
+
+  const firstInputRef = useRef(null)
+
+  // Focus first input on mount
+  useEffect(() => {
+    if (firstInputRef.current) {
+      firstInputRef.current.focus()
+    }
+  }, [])
+
+  // Prevent body scroll while modal is open
+  useEffect(() => {
+    const originalOverflow = document.body.style.overflow
+    document.body.style.overflow = "hidden"
+    return () => {
+      document.body.style.overflow = originalOverflow
+    }
+  }, [])
+
+  // Handle Escape key to close modal
+  useEffect(() => {
+    const handleKeyDown = e => {
+      if (e.key === "Escape" && !isLoading) {
+        onClose()
+      }
+    }
+    document.addEventListener("keydown", handleKeyDown)
+    return () => document.removeEventListener("keydown", handleKeyDown)
+  }, [onClose, isLoading])
+
+  // Auto-close after success
+  useEffect(() => {
+    if (isSubmitSuccess) {
+      const timer = setTimeout(() => {
+        onClose()
+      }, 3000)
+      return () => clearTimeout(timer)
+    }
+  }, [isSubmitSuccess, onClose])
+
+  const handleFieldChange = e => {
+    const { name, value } = e.target
+    setFormFields(prev => ({ ...prev, [name]: value }))
+    // Clear error when user starts typing
+    if (errors[name]) {
+      setErrors(prev => ({ ...prev, [name]: "" }))
+    }
+  }
+
+  const validateForm = () => {
+    const newErrors = {}
+    if (!formFields.name.trim()) {
+      newErrors.name = "Nimi on pakollinen"
+    }
+    if (!formFields.email.trim()) {
+      newErrors.email = "Sähköposti on pakollinen"
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formFields.email)) {
+      newErrors.email = "Anna kelvollinen sähköpostiosoite"
+    }
+    setErrors(newErrors)
+    return Object.keys(newErrors).length === 0
+  }
+
+  const handleSubmit = async e => {
+    e.preventDefault()
+    if (!validateForm()) return
+
+    setIsLoading(true)
+    setIsSubmitError(false)
+
+    const packageDetails = buildPackageDetails(leasingPackage)
+
+    let formattedMessage = ""
+
+    if (formFields.message) {
+      formattedMessage += formFields.message
+    }
+
+    const tableRows = [["Tuote", "Määrä", "Hinta / yksikkö"]]
+
+    // Add devices and peripherals to the email
+    for (const device of packageDetails.devices) {
+      tableRows.push([
+        device.name,
+        device.count,
+        PriceFormat.format(device.totalPrice),
+      ])
+      if (device.peripherals && device.peripherals.length > 0) {
+        for (const peripheral of device.peripherals) {
+          tableRows.push([
+            peripheral.name,
+            device.count,
+            PriceFormat.format(peripheral.price),
+          ])
+        }
+      }
+    }
+    // Add services to the email
+    for (const service of packageDetails.services) {
+      tableRows.push([
+        service.name,
+        leasingPackage.userCount,
+        PriceFormat.format(service.pricePerUser),
+      ])
+    }
+
+    formattedMessage += `\n\n${markdownTable(tableRows)} \n\n`
+
+    // Add the user count to the email
+    formattedMessage += `Käyttäjien lukumäärä: ${packageDetails.userCount} \n`
+
+    // Add the interest rate applied to the email
+    formattedMessage += `Laskuissa käytetty korko: ${PercentageFormat.format(
+      interestRate - 1
+    )} \n`
+
+    // Add totals to the email
+    formattedMessage += `Laitteiden suoraosto: ${PriceFormat.format(
+      totals.directPurchase
+    )} \n`
+    formattedMessage += `Laitteiden kuukausierä: ${PriceFormat.format(
+      totals.devicePayment
+    )} \n`
+    formattedMessage += `Palveluiden kuukausimaksu: ${PriceFormat.format(
+      totals.servicePayment
+    )} \n`
+    formattedMessage += `Kuukausimaksu koko paketille: ${PriceFormat.format(
+      totals.totalPayment
+    )} `
+
+    const formData = new URLSearchParams()
+    formData.append("name", formFields.name)
+    formData.append("email", formFields.email)
+    formData.append("phone", formFields.phone)
+    formData.append("message", formattedMessage)
+    formData.append("form", "leasing-tarjouspyynto")
+
+    try {
+      const response = await fetch(process.env.GATSBY_ContactApiEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: formData.toString(),
+      })
+
+      if (!response.ok) {
+        throw new Error("Network response was not ok")
+      }
+
+      // GTM tracking
+      if (typeof window !== "undefined" && window.dataLayer) {
+        window.dataLayer.push({
+          event: "form submit",
+          form: "leasing-tarjouspyynto",
+        })
+      }
+
+      setIsSubmitSuccess(true)
+    } catch (error) {
+      console.error("Form submission error:", error)
+      setIsSubmitError(true)
+    } finally {
+      setIsLoading(false)
+    }
+  }
+
+  const handleOverlayClick = e => {
+    if (e.target === e.currentTarget && !isLoading) {
+      onClose()
+    }
+  }
+
+  const theme = useTheme()
+
+  return (
+    <ModalOverlay onClick={handleOverlayClick}>
+      <ModalContent
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+        onClick={e => e.stopPropagation()}
+      >
+        {isLoading && (
+          <ModalLoadingOverlay>
+            <CircularProgress color="primary" />
+          </ModalLoadingOverlay>
+        )}
+
+        <ModalHeader>
+          <Typography
+            id="modal-title"
+            variant="h5"
+            sx={{ fontWeight: 600, color: "inherit" }}
+          >
+            Pyydä tarjous
+          </Typography>
+          <IconButton
+            onClick={onClose}
+            disabled={isLoading}
+            sx={{ color: "inherit" }}
+            aria-label="Sulje"
+          >
+            <CloseIcon />
+          </IconButton>
+        </ModalHeader>
+
+        {isSubmitSuccess ? (
+          <FormSection>
+            <Box sx={{ textAlign: "center", py: 3 }}>
+              <Typography
+                variant="h6"
+                sx={{ color: theme.palette.primary?.main || "black", mb: 1 }}
+              >
+                Kiitos tarjouspyynnöstä!
+              </Typography>
+              <Typography variant="body1">
+                Olemme sinuun yhteydessä pian.
+              </Typography>
+            </Box>
+          </FormSection>
+        ) : (
+          <>
+            <PackageSummarySection>
+              <Typography
+                variant="subtitle2"
+                sx={{
+                  fontSize: "0.75rem",
+                  fontWeight: 600,
+                  textTransform: "uppercase",
+                  color: lighten(0.2, theme.palette.primary.main),
+                  mb: 1,
+                }}
+              >
+                Paketin yhteenveto
+              </Typography>
+
+              {devicesComputed.length > 0 && (
+                <Box sx={{ mb: 1 }}>
+                  <Typography
+                    variant="body2"
+                    sx={{ fontWeight: 600, fontSize: "0.85rem" }}
+                  >
+                    Laitteet:
+                  </Typography>
+                  {devicesComputed.map(d => (
+                    <Typography
+                      key={d.name}
+                      variant="body2"
+                      sx={{ fontSize: "0.8rem", pl: 1 }}
+                    >
+                      {d.count}x {d.name}
+                      {d.peripherals.length > 0 &&
+                        ` + ${d.peripherals.map(p => p.name).join(", ")} `}
+                    </Typography>
+                  ))}
+                </Box>
+              )}
+
+              {Object.entries(leasingPackage.services).some(
+                ([key, value]) =>
+                  (leasingPackage.servicesChecked[key] && value?.name) ||
+                  (!Object.keys(leasingPackage.servicesChecked).includes(key) &&
+                    value?.name)
+              ) && (
+                <Box sx={{ mb: 1 }}>
+                  <Typography
+                    variant="body2"
+                    sx={{ fontWeight: 600, fontSize: "0.85rem" }}
+                  >
+                    Palvelut ({leasingPackage.userCount} käyttäjää):
+                  </Typography>
+                  {Object.entries(leasingPackage.services)
+                    .filter(
+                      ([key, value]) =>
+                        (leasingPackage.servicesChecked[key] && value?.name) ||
+                        (!Object.keys(leasingPackage.servicesChecked).includes(
+                          key
+                        ) &&
+                          value?.name)
+                    )
+                    .map(([_, value]) => (
+                      <Typography
+                        key={value.name}
+                        variant="body2"
+                        sx={{ fontSize: "0.8rem", pl: 1 }}
+                      >
+                        {value.name}
+                      </Typography>
+                    ))}
+                </Box>
+              )}
+
+              <Box
+                sx={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  mt: 1,
+                  pt: 1,
+                  borderTop: `1px solid ${lighten(
+                    0.5,
+                    theme.palette.primary.main
+                  )}`,
+                }}
+              >
+                <Typography variant="body1" sx={{ fontWeight: 700 }}>
+                  Kuukausierä yhteensä:
+                </Typography>
+                <Typography
+                  variant="body1"
+                  sx={{
+                    fontWeight: 700,
+                    color: darken(0.1, theme.palette.secondary.main),
+                  }}
+                >
+                  {PriceFormat.format(totals.totalPayment)}/kk
+                </Typography>
+              </Box>
+            </PackageSummarySection>
+
+            <FormSection>
+              {isSubmitError && (
+                <Box
+                  sx={{
+                    mb: 2,
+                    p: 1.5,
+                    backgroundColor: theme.palette.background.default,
+                    borderRadius: "4px",
+                  }}
+                >
+                  <Typography
+                    variant="body2"
+                    sx={{ color: theme.palette.error.main }}
+                  >
+                    Lomakkeen lähetys epäonnistui. Yritä uudelleen.
+                  </Typography>
+                </Box>
+              )}
+
+              <form onSubmit={handleSubmit}>
+                <Stack spacing={2}>
+                  <TextField
+                    inputRef={firstInputRef}
+                    name="name"
+                    label="Nimi *"
+                    value={formFields.name}
+                    onChange={handleFieldChange}
+                    error={!!errors.name}
+                    helperText={errors.name}
+                    fullWidth
+                    disabled={isLoading}
+                  />
+                  <TextField
+                    name="email"
+                    label="Sähköposti *"
+                    type="email"
+                    value={formFields.email}
+                    onChange={handleFieldChange}
+                    error={!!errors.email}
+                    helperText={errors.email}
+                    fullWidth
+                    disabled={isLoading}
+                  />
+                  <TextField
+                    name="phone"
+                    label="Puhelin"
+                    type="tel"
+                    value={formFields.phone}
+                    onChange={handleFieldChange}
+                    fullWidth
+                    disabled={isLoading}
+                  />
+                  <TextField
+                    name="message"
+                    label="Viesti"
+                    value={formFields.message}
+                    onChange={handleFieldChange}
+                    multiline
+                    rows={3}
+                    fullWidth
+                    disabled={isLoading}
+                  />
+                  <FormButton
+                    type="submit"
+                    disabled={isLoading}
+                  >
+                    Lähetä tarjouspyyntö
+                  </FormButton>
+                </Stack>
+              </form>
+            </FormSection>
+          </>
+        )}
+      </ModalContent>
+    </ModalOverlay>
+  )
+}
+
 const PriceFormat = new Intl.NumberFormat("fi-FI", {
   style: "currency",
   currency: "EUR",
+})
+
+const PercentageFormat = new Intl.NumberFormat("fi-FI", {
+  maximumSignificantDigits: 4,
+  style: "percent",
 })
 
 /**
@@ -393,25 +948,16 @@ export default function LeasingCalculatorComponent({
     () => safeParse(centralizedManagement, {}),
     [centralizedManagement]
   )
+  const [showModal, setShowModal] = useState(false)
 
   const [leasingPackage, setLeasingPackage] = useState({
-    devices:
-      parsedDevices.length > 0
-        ? [
-            {
-              name: parsedDevices[0].name,
-              price: parsedDevices[0].price,
-              peripherals: [],
-              count: 1,
-            },
-          ]
-        : [],
+    devices: [],
     services: {
       support: "",
       security: "",
       businessApps: "",
       cloudBackup: "",
-      centralizedManagement: parsedCentralizedManagement,
+      centralizedManagement: {},
     },
     userCount: 1,
     servicesChecked: {
@@ -421,6 +967,37 @@ export default function LeasingCalculatorComponent({
   })
   const calculatorRef = useRef(null)
   const [calculatorHeight, setCalculatorHeight] = useState(0)
+  const [hasMounted, setHasMounted] = useState(false)
+
+  useEffect(() => {
+    setHasMounted(true)
+  }, [])
+
+  // Initialize default device and centralized management after mount to avoid hydration mismatch
+  useEffect(() => {
+    setLeasingPackage(prev => {
+      // Only initialize if devices is still empty (not user-modified)
+      if (prev.devices.length === 0 && parsedDevices.length > 0) {
+        return {
+          ...prev,
+          devices: [
+            {
+              name: parsedDevices[0].name,
+              price: parsedDevices[0].price,
+              peripherals: [],
+              count: 1,
+            },
+          ],
+          services: {
+            ...prev.services,
+            centralizedManagement: parsedCentralizedManagement,
+          },
+        }
+      }
+      return prev
+    })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const scrollWrapperRef = useRef(null)
   const scrollAreaRef = useRef(null)
@@ -430,6 +1007,10 @@ export default function LeasingCalculatorComponent({
     security: false,
     businessApps: false,
   })
+
+  const toggleModalOpen = () => {
+    setShowModal(prev => !prev)
+  }
 
   const handleDevicesChange = (_, newValue) => {
     setLeasingPackage(prev => {
@@ -803,6 +1384,8 @@ export default function LeasingCalculatorComponent({
   ])
 
   useEffect(() => {
+    if (!hasMounted) return
+
     const el = calculatorRef.current
 
     if (!el) {
@@ -819,9 +1402,11 @@ export default function LeasingCalculatorComponent({
     ro.observe(el)
 
     return () => ro.disconnect()
-  }, [])
+  }, [hasMounted])
 
   useEffect(() => {
+    if (!hasMounted) return
+
     const wrapperEl = scrollWrapperRef.current
     const scrollerEl = scrollAreaRef.current
 
@@ -871,7 +1456,7 @@ export default function LeasingCalculatorComponent({
       window.removeEventListener("resize", update)
       ro.disconnect()
     }
-  }, [serviceCards.length, calculatorHeight])
+  }, [hasMounted, serviceCards.length, calculatorHeight])
 
   return (
     <LeasingCalculatorContainer>
@@ -2104,8 +2689,54 @@ export default function LeasingCalculatorComponent({
             </Box>
           </Box>
         </CalculatorSectionContainer>
+        <Divider variant="fullWidth" flexItem />
+        <CalculatorSectionContainer>
+          <Box
+            sx={{
+              width: "100%",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              textAlign: "center",
+              gap: 1,
+              marginBottom: "0.5rem",
+            }}
+          >
+            <Typography
+              variant="h4"
+              sx={{ fontSize: "1.3rem", fontWeight: 600 }}
+            >
+              Valmiina etenemään?
+            </Typography>
+            <Typography
+              variant="body2"
+              sx={{
+                color: lighten(0.2, theme.palette.primary.main),
+                maxWidth: "400px",
+                mb: 1,
+              }}
+            >
+              Ota yhteyttä, niin asiantuntijamme käy laskelman kanssasi läpi ja
+              auttaa viimeistelemään yrityksellesi sopivan kokonaisuuden.
+            </Typography>
+            <FormButton onClick={toggleModalOpen}>
+              Pyydä tarjous
+            </FormButton>
+          </Box>
+          {showModal && (
+            <Portal>
+              <LeasingContactForm
+                onClose={toggleModalOpen}
+                leasingPackage={leasingPackage}
+                devicesComputed={devicesComputed}
+                totals={totals}
+                interestRate={threeYearInterest}
+              />
+            </Portal>
+          )}
+        </CalculatorSectionContainer>
       </LeasingCalculator>
-      {serviceCards.length > 0 && (
+      {hasMounted && serviceCards.length > 0 && (
         <VerticalScrollWrapper ref={scrollWrapperRef}>
           <VerticalScrollArea ref={scrollAreaRef} $maxHeight={calculatorHeight}>
             <Cards
