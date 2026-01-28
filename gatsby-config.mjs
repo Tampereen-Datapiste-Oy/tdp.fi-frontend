@@ -34,7 +34,9 @@ export default {
               backgroundColor: "transparent",
               linkImagesToOriginal: false,
               disableBgImageOnAlpha: false,
-              loading: "eager"
+              loading: "eager",
+              withWebp: true,
+              withAvif: true
             },
           },
         ],
