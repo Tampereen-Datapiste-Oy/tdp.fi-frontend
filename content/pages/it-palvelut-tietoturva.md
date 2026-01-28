@@ -71,7 +71,7 @@ Työntekijöiden työvälineiden osalta huolehdimme, että tietokoneissa ja puhe
 
 Perustasolla tämä voi tarkoittaa, että laitteissa on asianmukainen tietoturvaohjelmisto sekä pakotettu salasana. Kattavampi tietoturva saadaan tallennettujen tietojen salaamisella sekä ohjelmistopalomuurien ja salatun VPN-yhteyden hyödyntämisellä. 
 
-[Keskitetyn hallinnan](/ohjelmistot/jumpcloud) avulla laitekannan tilannetta voidaan seurata ja tietoturvaa parantavat muutokset saadaan asennettua kerralla koko laitekantaan.
+[Keskitetyn hallinnan](/it-palvelut/keskitetty-hallinta) avulla laitekannan tilannetta voidaan seurata ja tietoturvaa parantavat muutokset saadaan asennettua kerralla koko laitekantaan.
 
 ## Yrityksen sisäverkot
 

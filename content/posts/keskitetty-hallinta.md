@@ -41,7 +41,7 @@ Opas kannattaa ladata, jos yrityksessänne on havaittavissa hallinnan puutteesta
 
 ## JumpCloud-ohjelmisto on moderni työkalu keskitettyyn hallintaan
 
-Suosittelemamme keskitetyn hallinnan pilvipalvelu on [JumpCloud](/ohjelmistot/jumpcloud), joka ratkaisee kokonaisvaltaisesti yrityksen hallinnan tarpeet. 
+Suosittelemamme keskitetyn hallinnan pilvipalvelu on [JumpCloud](/it-palvelut/keskitetty-hallinta), joka ratkaisee kokonaisvaltaisesti yrityksen hallinnan tarpeet. 
 
 Se sopii myös etätyötä tekeville yrityksille ja etenkin yrityksille, joissa käytetään rinnakkain Windows-, Apple- ja Linux-laitteita.
 
