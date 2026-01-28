@@ -64,6 +64,7 @@ const LeasingCalculatorContainer = styled.div`
 
     & > :only-child {
       grid-column: span 10;
+      width: 100%;
       margin: 0 auto;
     }
 
@@ -879,10 +880,7 @@ const LeasingContactForm = ({
                     fullWidth
                     disabled={isLoading}
                   />
-                  <FormButton
-                    type="submit"
-                    disabled={isLoading}
-                  >
+                  <FormButton type="submit" disabled={isLoading}>
                     Lähetä tarjouspyyntö
                   </FormButton>
                 </Stack>
@@ -2719,9 +2717,7 @@ export default function LeasingCalculatorComponent({
               Ota yhteyttä, niin asiantuntijamme käy laskelman kanssasi läpi ja
               auttaa viimeistelemään yrityksellesi sopivan kokonaisuuden.
             </Typography>
-            <FormButton onClick={toggleModalOpen}>
-              Pyydä tarjous
-            </FormButton>
+            <FormButton onClick={toggleModalOpen}>Pyydä tarjous</FormButton>
           </Box>
           {showModal && (
             <Portal>
