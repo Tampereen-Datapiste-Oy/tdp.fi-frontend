@@ -23,7 +23,7 @@ T﻿iivistämme kilpailukeinomme kolmeen elementtiin:
 
 **Google Workspace on eittämättä moderni, digitaalinen työympäristö, jolla on laajalti dokumentoitu kyky tehostaa yritysten liiketoimintaa.**  
 
-Turvallisena pilvipalvelupakettina [Workspace](https://www.tdp.fi/ohjelmistot/google-workspace) tarjoaa yrityksellesi kaikki arjen töissä tarvitsemasi työkalut yhdessä paketissa, yhdellä kiinteällä hinnalla.
+Turvallisena pilvipalvelupakettina [Workspace](/ohjelmistot/google-workspace) tarjoaa yrityksellesi kaikki arjen töissä tarvitsemasi työkalut yhdessä paketissa, yhdellä kiinteällä hinnalla.
 
 Mieti kuitenkin tarkkaan, mistä yrityksesi tarvitsema Google-paketti kannattaa hankkia! 
 
@@ -43,7 +43,7 @@ Voimme auttaa yritystäsi valitsemaan oikeat sovellukset ja lisenssit täsmätar
 
 **Hintaeroa ei ole Googlen ja jälleenmyyjältä ostetun välillä.**
 
-Hinta on käytännössä sama, ostaa yrityksesi Workspacen suoraan [Googlelta](https://workspace.google.com/pricing.html) tai jälleenmyyjältä kuten [TDP](https://www.tdp.fi/ohjelmistot/google-workspace). Sama kiinteä hinta käyttäjää kohden joka kuukausi eikä odotuksia hintatason äkillisistä heilahduksista.
+Hinta on käytännössä sama, ostaa yrityksesi Workspacen suoraan [Googlelta](https://workspace.google.com/pricing.html) tai jälleenmyyjältä kuten [TDP](/ohjelmistot/google-workspace). Sama kiinteä hinta käyttäjää kohden joka kuukausi eikä odotuksia hintatason äkillisistä heilahduksista.
 
 Mieti kuitenkin, kuinka arvokasta tehokas tukipalvelu on yrityksellesi. Nopeasti ratkaistut IT-pulmat selittävät, miksi entistä useammat yritykset hankkivat Workspacen nimenomaan jälleenmyyjän kautta.
 

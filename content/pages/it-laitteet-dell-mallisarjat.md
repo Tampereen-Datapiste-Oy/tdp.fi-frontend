@@ -38,7 +38,7 @@ contactForm: Ota yhteyttä
 
 *Tarvitsetko arvion IT-kokonaisuuden kustannuksista?*
 
-<CallToAction bgColor="dark" url="https://www.tdp.fi/it-laitteet/arviolaskuri/" align="left">Kokeile laskuria</CallToAction>
+<CallToAction bgColor="dark" url="/it-laitteet/arviolaskuri/" align="left">Kokeile laskuria</CallToAction>
 
 <CallToAction bgColor="dark" url="#contact-form" align="left">Jätä tarjouspyyntö</CallToAction>
 
@@ -58,7 +58,7 @@ Käyttötarpeet vaihtelevat. Kaikki eivät tarvitse samaa tehoa, liikkuvuutta ta
 
 Siksi Dellin yrityslaitteet on jaettu käyttötarpeiden mukaisiin sarjoihin. Näin voidaan valita oikea laite todelliseen tarpeeseen, ilman ylimääräisiä kompromisseja. Alta löydät yleiskuvan Dellin yrityskannettavista ja pöytäkoneista, toimistotyöstä vaativiin työasemiin. 
 
-Jos yrityskannettavien valinta on ajankohtaista ja kaipaat syvempää taustaa päätöksenteon tueksi, suosittelemme lukemaan myös [Yrityskannettavien valinta oppaamme](https://www.tdp.fi/Yrityskannettavanvalinta/), sekä tutustumaan palveluihimme tarkemmin [täältä](https://www.tdp.fi/it-palvelut/).
+Jos yrityskannettavien valinta on ajankohtaista ja kaipaat syvempää taustaa päätöksenteon tueksi, suosittelemme lukemaan myös [Yrityskannettavien valinta oppaamme](/Yrityskannettavanvalinta/), sekä tutustumaan palveluihimme tarkemmin [täältä](/it-palvelut/).
 
 ## Dell -kannettavat
 
@@ -73,7 +73,7 @@ Yrityksille ja työntekijöille, joiden työ koostuu pääosin toimistosovelluks
 * Helppo hallita, huoltaa ja vakioida koko organisaatiossa.
 * Ennakoitavat kustannukset ja hyvä hinta-laatusuhde.
 
-Lue lisää **Dell Pro -kannettavista** [täältä.](https://www.tdp.fi/it-laitteet/dellpro_laptop/)
+Lue lisää **Dell Pro -kannettavista** [täältä.](/it-laitteet/dellpro_laptop/)
 
 ### Dell Pro Plus – hybriditöihin
 
@@ -86,7 +86,7 @@ Työntekijöille, jotka tekevät töitä sekä toimistolla että etänä ja tarv
 * Hyvät liitännät ja langattomat yhteydet sujuvaan työskentelyyn.
 * Tasapaino liikkuvuuden ja suorituskyvyn välillä.
 
-Lue lisää **Dell Pro Plus -kannettavista** [täältä.](https://www.tdp.fi/it-laitteet/dellproplus_laptop/)
+Lue lisää **Dell Pro Plus -kannettavista** [täältä.](/it-laitteet/dellproplus_laptop/)
 
 ### Dell Pro Premium – edustuskäyttöön
 
@@ -99,7 +99,7 @@ Johdolle, asiantuntijoille ja asiakastyötä tekeville, joille liikkuvuus, laatu
 * Ammattimainen vaikutelma asiakas- ja neuvottelutilanteissa.
 * Yritystason tietoturva ja hallittavuus.
 
-Lue lisää **Dell Pro Premium -kannettavista** [täältä](https://www.tdp.fi/it-laitteet/dellpropremium_laptop/).
+Lue lisää **Dell Pro Premium -kannettavista** [täältä](/it-laitteet/dellpropremium_laptop/).
 
 ### Dell Pro Max Premium – vaativiin asiantuntijatöihin
 
@@ -112,7 +112,7 @@ Suunnitteluun, analytiikkaan ja muihin vaativiin tehtäviin, joissa tarvitaan ty
 * Pienikokoiset mutta ammattitason työasemat kannettavassa muodossa.
 * Suunniteltu intensiiviseen käyttöön ja pitkille työpäiville.
 
-Lue lisää **Dell Pro Max Premium -kannettavista** [täältä.](https://www.tdp.fi/it-laitteet/dellpromaxpremium_laptop/)
+Lue lisää **Dell Pro Max Premium -kannettavista** [täältä.](/it-laitteet/dellpromaxpremium_laptop/)
 
 ## Dell -pöytäkoneet
 
@@ -127,7 +127,7 @@ Toimistoihin ja työpisteisiin, joissa tila on rajallinen mutta tarvitaan silti 
 * Sopii toimistoon ja moninäyttöiseen käyttöön.
 * Helppo vakioida ja ylläpitää.
 
-Lue lisää **Dell Pro Micro -pöytäkoneista** [täältä.](https://www.tdp.fi/it-laitteet/dellpromicro_desktop/)
+Lue lisää **Dell Pro Micro -pöytäkoneista** [täältä.](/it-laitteet/dellpromicro_desktop/)
 
 ### Dell Pro Slim – kompaktit mallit toimistokäyttöön
 
@@ -140,7 +140,7 @@ Käyttäjille, jotka tarvitsevat pöytäkoneelta enemmän suorituskykyä tai laa
 * Soveltuu vaativampaan toimistotyöhön ja erikoissovelluksiin.
 * Hyvä vaihtoehto perinteiselle tornikoneelle.
 
-Lue lisää **Dell Pro Slim -pöytäkoneista** [täältä.](https://www.tdp.fi/it-laitteet/dellproslim_desktop/)
+Lue lisää **Dell Pro Slim -pöytäkoneista** [täältä.](/it-laitteet/dellproslim_desktop/)
 
 ### Dell Pro Tower T2 – laajennettavat tehotyöasemat
 
@@ -153,6 +153,6 @@ Nämä on suunniteltu raskaaseen ajoon. Tower T2 on tarkoitettu käyttäjille, j
 * Pitkä elinkaari ja hyvä investointisuoja.
 * Sopii keskitettyihin työpisteisiin, joissa vaaditaan maksimaalista suorituskykyä.
 
-Lue lisää **Dell Pro Tower T2 -tehotyöasemista** [täältä.](https://www.tdp.fi/it-laitteet/dellpromaxtower_desktop)
+Lue lisää **Dell Pro Tower T2 -tehotyöasemista** [täältä.](/it-laitteet/dellpromaxtower_desktop)
 
 **Yrityskoneiden valinta on kokonaisuus, jossa yhteensopivuus, hallittavuus ja pitkä elinkaari ovat yksittäisiä ominaisuuksia tärkeämpiä. Kun laitteet on valittu yrityksen todellisten tarpeiden mukaan, IT tukee liiketoimintaa eikä hidasta sitä. Asiantuntijamme auttavat mielellään löytämään yrityksellesi sopivan ratkaisun. Ota yhteyttä ja kysy lisää.**

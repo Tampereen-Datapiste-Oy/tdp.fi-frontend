@@ -171,7 +171,7 @@ Tällä tavalla NIS2-valmistautuminen ei ole kertaponnistus, vaan osa normaalia 
 
 ### Esimerkkitoimenpiteitä
 
-Monissa yrityksissä arki pyörii pilvessä, tyypillisesti [Google Workspacen](https://www.tdp.fi/ohjelmistot/google-workspace/) tai [Microsoft 365:n](https://www.tdp.fi/ohjelmistot/microsoft-365/) ympärillä. NIS2- ja kyberturvasuositukset eivät ota kantaa yksittäisiin tuotteisiin, mutta niiden periaatteet voi toteuttaa näissä ympäristöissä hyvin.
+Monissa yrityksissä arki pyörii pilvessä, tyypillisesti [Google Workspacen](/ohjelmistot/google-workspace/) tai [Microsoft 365:n](/ohjelmistot/microsoft-365/) ympärillä. NIS2- ja kyberturvasuositukset eivät ota kantaa yksittäisiin tuotteisiin, mutta niiden periaatteet voi toteuttaa näissä ympäristöissä hyvin.
 
 Esimerkkejä konkreettisista toimenpiteistä:
 
@@ -220,7 +220,7 @@ Ajoissa aloitettu valmistautuminen tarjoaa kolme selkeää hyötyä:
 
 **Tärkeintä on aloittaa ajoissa**. Jos et ole varma, mistä lähteä liikkeelle tai miten NIS2:n periaatteet toteutetaan teidän ympäristössänne, niin pyydä meiltä kevyt **NIS2-valmiuskartoitus**. Saat konkreettiset toimenpide-ehdotukset seuraavalle 12 kuukaudelle,  jotta vältät myöhemmän kiireen ja suuret kertakustannukset.
 
-[Ota yhteyttä!](https://www.tdp.fi/NIS2/#contact-form)
+[Ota yhteyttä!](/NIS2/#contact-form)
 
 ![Kuvituskuva: Kilpi-symboliikka](../../static/assets/kuva-artikkeli-nis2_2.png "Tietoturva direktiivien kuntoonlaitto tuo suojaa myös pk-yrityksille")
 

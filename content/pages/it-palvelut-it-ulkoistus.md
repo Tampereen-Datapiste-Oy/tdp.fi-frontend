@@ -34,12 +34,12 @@ Olemme IT-ulkoistuksen asiantuntijoita Pirkanmaalla ja pääkaupunkiseudulla. Ta
 
 ## K﻿attava palveluvalikoima – kaikki IT-tarpeet yhdestä paikasta
 
-* [T﻿ukipalvelut](https://www.tdp.fi/it-palvelut/tuki-ja-huolto): Nopea ja ammattitaitoinen tuki käyttäjäkysymyksiin ja ongelmatilanteisiin.
-* [Liiketoimintasovellukset](https://www.tdp.fi/ohjelmistot/google-workspace) (Google tai Microsoft): Hallinnoimme liiketoimintasovelluksianne tehokkaasti, varmistaen niiden sujuvan toiminnan ja integraation.
-* [Pilvipalveluiden varmuuskopiointi](https://www.tdp.fi/it-palvelut/varmuuskopiointi): Takaamme tietojenne turvallisuuden pilvipalveluissa tehokkaan varmuuskopiointiratkaisun avulla.
-* [Laitehankinnat](https://www.tdp.fi/it-laitteet/): Tietokoneet ja oheislaitteet kilpailukykyiseen hintaan, joko suoraostolla tai joustavasti leasingilla.
-* [Keskitetty hallinta](https://www.tdp.fi/it-palvelut/keskitetty-hallinta): Hallitsemme yrityksesi laitteita ja käyttäjätunnuksia yhdeltä hallintapaneelilta, mikä takaa paremman tietoturvan ja hallinnollisen tehokkuuden.
-* [Tietoturvapalvelut](https://www.tdp.fi/it-palvelut/tietoturva-total-ja-lite): Suojaamme yrityksesi tietoturvauhkilta ja varmistamme, että tietoturvasi on ajan tasalla.
+* [T﻿ukipalvelut](/it-palvelut/tuki-ja-huolto): Nopea ja ammattitaitoinen tuki käyttäjäkysymyksiin ja ongelmatilanteisiin.
+* [Liiketoimintasovellukset](/ohjelmistot/google-workspace) (Google tai Microsoft): Hallinnoimme liiketoimintasovelluksianne tehokkaasti, varmistaen niiden sujuvan toiminnan ja integraation.
+* [Pilvipalveluiden varmuuskopiointi](/it-palvelut/varmuuskopiointi): Takaamme tietojenne turvallisuuden pilvipalveluissa tehokkaan varmuuskopiointiratkaisun avulla.
+* [Laitehankinnat](/it-laitteet/): Tietokoneet ja oheislaitteet kilpailukykyiseen hintaan, joko suoraostolla tai joustavasti leasingilla.
+* [Keskitetty hallinta](/it-palvelut/keskitetty-hallinta): Hallitsemme yrityksesi laitteita ja käyttäjätunnuksia yhdeltä hallintapaneelilta, mikä takaa paremman tietoturvan ja hallinnollisen tehokkuuden.
+* [Tietoturvapalvelut](/it-palvelut/tietoturva-total-ja-lite): Suojaamme yrityksesi tietoturvauhkilta ja varmistamme, että tietoturvasi on ajan tasalla.
 
 Tarvittaessa kauttamme järjestyvät ratkaisut myös muihin ICT -alan tarpeisiin, kuten esimerkiksi verkkosivujen hostingiin, salasanojen hallintaan ja sähköisiin allekirjoituksiin. 
 

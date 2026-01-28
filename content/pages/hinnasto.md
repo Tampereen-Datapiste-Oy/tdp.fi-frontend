@@ -52,14 +52,14 @@ V﻿oimassa 1.1.2024 alkaen
 
 |                       |                                                                     |
 | --------------------- | ------------------------------------------------------------------- |
-| Google Workspace      | [Katso täältä](https://www.tdp.fi/ohjelmistot/google-workspace)     |
-| Microsoft 365         | [Katso täältä](https://www.tdp.fi/ohjelmistot/microsoft-365)        |
-| Nira                  | [Katso täältä](https://www.tdp.fi/ohjelmistot/nira)                 |
-| JumpCloud             | [Katso täältä](https://www.tdp.fi/it-palvelut/keskitetty-hallinta/) |
-| Dropbox               | [Katso täältä](https://www.tdp.fi/ohjelmistot/dropbox)              |
-| ﻿Virtru               | [Katso täältä](https://www.tdp.fi/ohjelmistot/virtru)               |
-| ﻿Assently             | [Katso täältä](https://www.tdp.fi/ohjelmistot/assently)             |
-| ﻿WithSecure           | [Katso täältä](https://www.tdp.fi/ohjelmistot/withsecure)           |
+| Google Workspace      | [Katso täältä](/ohjelmistot/google-workspace)     |
+| Microsoft 365         | [Katso täältä](/ohjelmistot/microsoft-365)        |
+| Nira                  | [Katso täältä](/ohjelmistot/nira)                 |
+| JumpCloud             | [Katso täältä](/it-palvelut/keskitetty-hallinta/) |
+| Dropbox               | [Katso täältä](/ohjelmistot/dropbox)              |
+| ﻿Virtru               | [Katso täältä](/ohjelmistot/virtru)               |
+| ﻿Assently             | [Katso täältä](/ohjelmistot/assently)             |
+| ﻿WithSecure           | [Katso täältä](/ohjelmistot/withsecure)           |
 | ﻿Bitwarden            | 5,00 €/kk                                                           |
 | ﻿Adobe Creative Cloud | 73,49 €/kk                                                          |
 | ﻿Nexetic Full         | 10,00 €/kk                                                          |

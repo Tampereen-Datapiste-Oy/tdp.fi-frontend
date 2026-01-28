@@ -78,19 +78,19 @@ Entäpä jos IT-budjettia halutaan tarkastella lähemmin ja miettiä, tulisiko s
 
 **Pakollisia IT-kuluja** ovat kaikki ne, joita tarvitaan sujuvaan työskentelyyn. Jos viikoittainen työskentely ei ole sujuvaa, yritykseltäsi selvästi puuttuu jotakin:
 
-* [Työntekijän rooliin sopivat IT-laitteet](https://www.tdp.fi/it-laitteet)
-* [Työssä tarvittavat ohjelmistot ja lisenssit](https://www.tdp.fi/ohjelmistot)
-* [Luotettavat verkkoyhteydet](https://www.tdp.fi/it-laitteet/yrityksen-verkkoyhteydet)
+* [Työntekijän rooliin sopivat IT-laitteet](/it-laitteet)
+* [Työssä tarvittavat ohjelmistot ja lisenssit](/ohjelmistot)
+* [Luotettavat verkkoyhteydet](/it-laitteet/yrityksen-verkkoyhteydet)
 * Tulostimet 
 * Riittävä it-tuki
-* [Tietoturva ja yrityksen tietojen varmuuskopiointi](https://www.tdp.fi/it-palvelut/varmuuskopiointi)
+* [Tietoturva ja yrityksen tietojen varmuuskopiointi](/it-palvelut/varmuuskopiointi)
 * Organisaation käyttäjähallinta
 
 **Harkinnanvaraiset IT-kulut** kannattaa mieltää investointina, joilla tavoitellaan parempaa tuottavuutta tai tavallista parempaa tietoturvan tasoa. Harkinnanvaraisia kuluja voivat olla esimerkiksi:
 
-* [Tavallista paremmat työasemat](https://www.tdp.fi/leasing-paketit/tehokone)
-* [Työntekijöiden tuki- ja varalaitepalvelut](https://www.tdp.fi/it-palvelut/tuki-ja-huolto)
-* [Yritykselle hankittava sähköisen allekirjoituspalvelun käyttöoikeus](https://www.tdp.fi/ohjelmistot/assently). 
+* [Tavallista paremmat työasemat](/leasing-paketit/tehokone)
+* [Työntekijöiden tuki- ja varalaitepalvelut](/it-palvelut/tuki-ja-huolto)
+* [Yritykselle hankittava sähköisen allekirjoituspalvelun käyttöoikeus](/ohjelmistot/assently). 
 
 Budjetoinnin näkökulmasta oleellista tietysti on, että pakolliset kulut asettavat alarajan myös IT-budjetin laadinnassa. 
 

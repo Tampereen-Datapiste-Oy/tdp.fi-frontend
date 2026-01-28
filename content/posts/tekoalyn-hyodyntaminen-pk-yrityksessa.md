@@ -24,7 +24,7 @@ contactForm: Ota yhteyttä
 
 TDP:ssä GPT otettiin työkaluksi markkinointisisältöjen tuottamiseen tämän vuoden alussa. Jo ensimmäiset kokeilut työkalun kanssa osoittivat, että GPT:llä on kyky tuottaa hyvää markkinointitekstiä huomattavasti ihmistä nopeammin ja siten myös kustannussäästöjä. 
 
-GPT onnistuu tuottamaan luonnollista suomea yllättävän hyvin. GPT esimerkiksi kykenee tuottamaan uskottavan, [monisatasanaisen IT-artikkelin](https://www.tdp.fi/isv-sertifiointi-varmistaa-taukoamattoman-tietotyon) ajassa, jossa ihminen olisi kirjoittanut vasta pari ensimmäistä virkettä - se on kiistämättä osoitus sovelluksen tehokkuudesta.
+GPT onnistuu tuottamaan luonnollista suomea yllättävän hyvin. GPT esimerkiksi kykenee tuottamaan uskottavan, [monisatasanaisen IT-artikkelin](/isv-sertifiointi-varmistaa-taukoamattoman-tietotyon) ajassa, jossa ihminen olisi kirjoittanut vasta pari ensimmäistä virkettä - se on kiistämättä osoitus sovelluksen tehokkuudesta.
 
 Laadullisesti GPT on kuitenkin enemmän oppilas kuin mestari. Se tarvitsee ihmiseltä tarkat työohjeet ja yleensäkin useamman ohjekierroksen, ennen kuin tuotettu teksti yltää tavoitteisiinsa. Muuten teksti jää kovin yleisluontoiseksi, jättäen ihmiselle pakollisen työn hienosäätää se lopulliseen asuunsa.
 

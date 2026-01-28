@@ -35,7 +35,7 @@ contactForm: Ota yhteyttä
 
 *Tarvitsetko arvion IT-kokonaisuuden kustannuksista?*
 
-<CallToAction bgColor="dark" url="https://www.tdp.fi/it-laitteet/arviolaskuri/" align="left">Kokeile laskuria</CallToAction>
+<CallToAction bgColor="dark" url="/it-laitteet/arviolaskuri/" align="left">Kokeile laskuria</CallToAction>
 
 <CallToAction bgColor="dark" url="#contact-form" align="left">Jätä tarjouspyyntö</CallToAction>
 
@@ -60,17 +60,17 @@ Oikein mitoitettu yrityskannettava valitaan aina käyttäjäprofiilin mukaan. Pe
 
 ## Windows-kannettavat
 
-Windows-ympäristöihin suosittelemme ensisijaisesti [Dellin yritysmalleja](https://www.tdp.fi/it-laitteet/dell-mallisarjat/). Ne on suunniteltu jatkuvaan työkäyttöön ja laitekannan vakiointi tekee niistä helposti hallittavia.
+Windows-ympäristöihin suosittelemme ensisijaisesti [Dellin yritysmalleja](/it-laitteet/dell-mallisarjat/). Ne on suunniteltu jatkuvaan työkäyttöön ja laitekannan vakiointi tekee niistä helposti hallittavia.
 
-**Dell Pro**: Kun haluatte luotettavan peruskoneen arkeen. [Dell Pro -sarjan](https://www.tdp.fi/it-laitteet/dellpro_laptop/) kannettavat on suunniteltu päivittäiseen toimistotyöhön, jossa tärkeintä on vakaa suorituskyky, pitkä elinkaari ja helppo hallittavuus ilman turhaa ylitehoa.
+**Dell Pro**: Kun haluatte luotettavan peruskoneen arkeen. [Dell Pro -sarjan](/it-laitteet/dellpro_laptop/) kannettavat on suunniteltu päivittäiseen toimistotyöhön, jossa tärkeintä on vakaa suorituskyky, pitkä elinkaari ja helppo hallittavuus ilman turhaa ylitehoa.
 
-**Dell Pro Plus**: Kun työ tehdään sekä toimistolla että etänä. [Dell Pro Plus -sarja](https://www.tdp.fi/it-laitteet/dellproplus_laptop/) tarjoaa kevyen ja liikkuvaan työhön sopivan laitteen, joka tukee hybridityötä ja sujuvaa työskentelyä eri ympäristöissä ilman kompromisseja.
+**Dell Pro Plus**: Kun työ tehdään sekä toimistolla että etänä. [Dell Pro Plus -sarja](/it-laitteet/dellproplus_laptop/) tarjoaa kevyen ja liikkuvaan työhön sopivan laitteen, joka tukee hybridityötä ja sujuvaa työskentelyä eri ympäristöissä ilman kompromisseja.
 
-**Dell Pro Premium**: Kun laitteelta vaaditaan laatua ja edustavuutta. [Dell Pro Premium -sarjan](https://www.tdp.fi/it-laitteet/dellpropremium_laptop/) kannettavat yhdistävät ohuen ja kevyen rakenteen yrityskäytön vaatimuksiin ja tarjoavat miellyttävän käyttökokemuksen vaativille käyttäjille.
+**Dell Pro Premium**: Kun laitteelta vaaditaan laatua ja edustavuutta. [Dell Pro Premium -sarjan](/it-laitteet/dellpropremium_laptop/) kannettavat yhdistävät ohuen ja kevyen rakenteen yrityskäytön vaatimuksiin ja tarjoavat miellyttävän käyttökokemuksen vaativille käyttäjille.
 
-**Dell Pro Max Premium**: Kun suorituskyky vaikuttaa suoraan työn sujuvuuteen. [Dell Pro Max Premium -sarja](https://www.tdp.fi/it-laitteet/dellpromaxpremium_laptop/) tarjoaa työasemaluokan tehon kannettavassa muodossa vaativiin asiantuntijatehtäviin.
+**Dell Pro Max Premium**: Kun suorituskyky vaikuttaa suoraan työn sujuvuuteen. [Dell Pro Max Premium -sarja](/it-laitteet/dellpromaxpremium_laptop/) tarjoaa työasemaluokan tehon kannettavassa muodossa vaativiin asiantuntijatehtäviin.
 
-Lue lisää yrityskannettavien valinnasta julkaisemastamme [oppaasta](https://www.tdp.fi/Yrityskannettavanvalinta/).
+Lue lisää yrityskannettavien valinnasta julkaisemastamme [oppaasta](/Yrityskannettavanvalinta/).
 
 ## Apple Mac yritykselle
 
@@ -78,7 +78,7 @@ Lue lisää yrityskannettavien valinnasta julkaisemastamme [oppaasta](https://ww
 
 Toimitamme myös **Apple-laitteet** yrityskäyttöön, esimerkiksi **MacBook Pro-, MacBook Air- ja Mac mini -mallit**. Mac on tyypillisesti hyvä valinta johdolle, liikkuvaan työhön ja luovaan tuotantoon sekä yrityksiin, joissa macOS on jo osa arkea.
 
-Macit voi hankkia leasingilla tai suoraostolla, myös usean koneen paketteina. Voit laskea arvioidun kuukausierän helposti [Mac-leasinglaskurillamme.](https://www.tdp.fi/it-laitteet/mac-leasing)
+Macit voi hankkia leasingilla tai suoraostolla, myös usean koneen paketteina. Voit laskea arvioidun kuukausierän helposti [Mac-leasinglaskurillamme.](/it-laitteet/mac-leasing)
 
 ## Vakioitu laitekanta
 
@@ -94,10 +94,10 @@ Moni yritys hankkii laitteet osana palvelusopimusta. Se tekee arjesta ennakoitav
 
 Tyypillinen perusta on Tukipalvelu, jonka osana huolehdimme laitevaihdoista ja tietoturvallisesta kierrätyksestä sovitusti. Kokonaisuutta voidaan laajentaa tarpeen mukaan:
 
-* [Keskitetty hallinta](https://www.tdp.fi/it-palvelut/keskitetty-hallinta/): Keskitetty päätelaitteiden ja käyttäjätilien hallinta.
-* [Liiketoimintasovellukset](https://www.tdp.fi/it-palvelut/keskitetty-hallinta/): Google tai Microsoft ja niiden hallinta.
-* [Tietoturvapalvelu:](https://www.tdp.fi/it-palvelut/tietoturva-total-ja-lite/) Suojaa laitteet viruksilta ja haittaohjelmilta.
-* [Varmuuskopiointi:](https://www.tdp.fi/it-palvelut/varmuuskopiointi/) Kriittisen datan tallennus myös pilvipalveluista (M365/Google).
+* [Keskitetty hallinta](/it-palvelut/keskitetty-hallinta/): Keskitetty päätelaitteiden ja käyttäjätilien hallinta.
+* [Liiketoimintasovellukset](/it-palvelut/keskitetty-hallinta/): Google tai Microsoft ja niiden hallinta.
+* [Tietoturvapalvelu:](/it-palvelut/tietoturva-total-ja-lite/) Suojaa laitteet viruksilta ja haittaohjelmilta.
+* [Varmuuskopiointi:](/it-palvelut/varmuuskopiointi/) Kriittisen datan tallennus myös pilvipalveluista (M365/Google).
 
 Laitteisiin asennetaan yrityksesi ohjelmistot ja määritykset sopimusten mukaan valmiiksi. Näin työntekijä pääsee heti omaan työhönsä kiinni, eikä aikaa kulu asennusten selvittämiseen.
 

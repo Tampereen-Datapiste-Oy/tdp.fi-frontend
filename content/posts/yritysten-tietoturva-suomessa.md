@@ -21,7 +21,7 @@ Kyberrikolliset ovat yhä aktiivisempia ja nykyään lähes puolet kaikista tiet
 
 Monilla organisaatioilla on erityisiä haasteita tietoturvassa. Resurssit voivat olla rajalliset, eikä omaa IT- tai tietoturvatiimiä aina ole. Tietoturva jää siis helposti muiden töiden jalkoihin. IT-ympäristö voi usein kehittyä tarpeen mukaan ilman selkeää kokonaisarkkitehtuuria, mikä johtaa hajanaisiin ratkaisuihin ja puutteelliseen dokumentointiin. Samalla sääntely koetaan monimutkaiseksi. Kyberuhat ovat muuttuneet vakavammiksi ja kohdennetummiksi: kiristyshaittaohjelmat, toimitusjohtajahuijaukset ja palvelunestohyökkäykset ovat arkipäivää. Geopoliittinen tilanne, kuten Suomen NATO-jäsenyys, voi kaiken lisäksi kasvattaa kybervakoilun riskiä.
 
-Tässä raportissa pureudumme neljään keskeiseen osa-alueeseen, jotka muodostavat vahvan perustan tietoturvalle: 1) työntekijöiden tietoturva, 2) verkkoliikenteen suojaus, 3) sisäverkkojen turvaaminen ja 4) kyberturvatietoisuus. Lähestymme näitä teemoja käytännönläheisesti. Esitämme ajankohtaisia haasteita, tarjoamme selkeitä suosituksia ja nostamme esiin konkreettisia ratkaisuja, kuten [identiteetin- ja pääsynhallinta](https://www.tdp.fi/it-palvelut/keskitetty-hallinta) ja [päätelaitteiden suojaus](https://www.tdp.fi/it-palvelut/tietoturva-total-ja-lite).
+Tässä raportissa pureudumme neljään keskeiseen osa-alueeseen, jotka muodostavat vahvan perustan tietoturvalle: 1) työntekijöiden tietoturva, 2) verkkoliikenteen suojaus, 3) sisäverkkojen turvaaminen ja 4) kyberturvatietoisuus. Lähestymme näitä teemoja käytännönläheisesti. Esitämme ajankohtaisia haasteita, tarjoamme selkeitä suosituksia ja nostamme esiin konkreettisia ratkaisuja, kuten [identiteetin- ja pääsynhallinta](/it-palvelut/keskitetty-hallinta) ja [päätelaitteiden suojaus](/it-palvelut/tietoturva-total-ja-lite).
 
 Tavoitteena on rakentaa vahvempi ja turvallisempi digitaalinen toimintaympäristö – ilman että IT:n hallinta vie kohtuuttomasti aikaa tai resursseja.
 
@@ -35,11 +35,11 @@ Suomessa kalastelut ja sähköpostihuijaukset ovat arkipäivää. Kyberturvallis
 
 Myös kiristyshaittaohjelmat leviävät usein käyttäjän toiminnan avulla, esimerkiksi haitallisen liitteen avaamisesta. Seuraukset voivat olla vakavia, järjestelmät voivat lamaantua ja liiketoiminta keskeytyä päiviksi.
 
-Siksi tietoturvassa tärkeintä ei ole pelkästään teknologia vaan se, miten ihmiset toimivat. [Koulutus](https://www.tdp.fi/it-palvelut/tdp-kyberakatemia), selkeät toimintamallit ja helposti saavutettava tuki ovat avainasemassa. Kun työntekijä tietää, mitä tehdä epäilyttävässä tilanteessa, koko yritys on paremmin suojassa.
+Siksi tietoturvassa tärkeintä ei ole pelkästään teknologia vaan se, miten ihmiset toimivat. [Koulutus](/it-palvelut/tdp-kyberakatemia), selkeät toimintamallit ja helposti saavutettava tuki ovat avainasemassa. Kun työntekijä tietää, mitä tehdä epäilyttävässä tilanteessa, koko yritys on paremmin suojassa.
 
 ### Identiteetin- ja pääsynhallinta
 
-[Identiteetin- ja pääsynhallinta](https://www.tdp.fi/it-palvelut/keskitetty-hallinta) (IAM) tarkoittaa teknologioita, joilla hallitaan työntekijöiden tunnuksia, käyttöoikeuksia ja kirjautumista yrityksen järjestelmiin. Pk-yrityksille IAM on keskeinen väline tietoturvan arjessa. Sen avulla estetään väärinkäytöksiä ja minimoidaan vahingot, jos käyttäjätunnukset joutuvat vääriin käsiin.
+[Identiteetin- ja pääsynhallinta](/it-palvelut/keskitetty-hallinta) (IAM) tarkoittaa teknologioita, joilla hallitaan työntekijöiden tunnuksia, käyttöoikeuksia ja kirjautumista yrityksen järjestelmiin. Pk-yrityksille IAM on keskeinen väline tietoturvan arjessa. Sen avulla estetään väärinkäytöksiä ja minimoidaan vahingot, jos käyttäjätunnukset joutuvat vääriin käsiin.
 
 **Vahva tunnistautuminen on perusta.** Yrityksen tärkeät järjestelmät kuten sähköposti, pilvipalvelut ja VPN-yhteydet tulisi suojata monivaiheisella tunnistautumisella (MFA). Tämä tarkoittaa yleensä joko mobiilisovelluksella luodun, tai tekstiviestinä lähetetyn, kertakäyttöisen koodin hyödyntämistä salasanan lisäksi. Suomessa on viime vuosina nähty useita Microsoft 365 -tilien kaappauksia, jotka on onnistuneesti ehkäisty juuri MFA:n käytöllä ja hyvillä suojauskäytännöillä. Monivaiheinen tunnistus on yksi kustannustehokkaimmista tavoista parantaa tietoturvaa.
 
@@ -53,9 +53,9 @@ Hyvin toteutettu IAM tukee myös GDPR-vaatimuksia. Esimerkiksi vuonna 2020 Posti
 
 Työntekijät käyttävät yhä monipuolisempia päätelaitteita – kannettavia tietokoneita, älypuhelimia, tabletteja – usein myös etäyhteyksien kautta. Jokainen laite on potentiaalinen sisäänkäynti yrityksen tietoihin, jos sen suojaus ei ole kunnossa. Siksi päätelaitteiden hallinta ja suojaus ovat kriittinen osa tietoturvaa.
 
-**[Keskitetty laitehallinta](https://www.tdp.fi/it-palvelut/keskitetty-hallinta) tekee arjesta hallittavaa.** Modernit MDM- ja EMM-ratkaisut mahdollistavat laitteiden hallinnan keskitetysti. Tietoturvakäytänteet, kuten pakollinen näytön lukitus, PIN-koodit tai biometrinen tunnistus sekä kiintolevyn salaus voidaan ottaa käyttöön kaikilla laitteilla automaattisesti. Mikäli laite katoaa tai varastetaan, se voidaan tyhjentää etänä. Tämä tuo turvaa erityisesti liikkuvaan työhön.
+**[Keskitetty laitehallinta](/it-palvelut/keskitetty-hallinta) tekee arjesta hallittavaa.** Modernit MDM- ja EMM-ratkaisut mahdollistavat laitteiden hallinnan keskitetysti. Tietoturvakäytänteet, kuten pakollinen näytön lukitus, PIN-koodit tai biometrinen tunnistus sekä kiintolevyn salaus voidaan ottaa käyttöön kaikilla laitteilla automaattisesti. Mikäli laite katoaa tai varastetaan, se voidaan tyhjentää etänä. Tämä tuo turvaa erityisesti liikkuvaan työhön.
 
-**[Haittaohjelmasuojaus](https://www.tdp.fi/it-palvelut/tietoturva-total-ja-lite) ja palomuurit kuuluvat perusvarustukseen.** Jokaisessa yrityksen laitteessa tulee olla ajantasainen haittaohjelmasuojaus, joka tunnistaa myös käyttäytymispohjaisia uhkia kuten kiristyshaittaohjelmien salausyrityksiä. Palomuurit tulee pitää päällä ja konfiguroida estämään luvattomat yhteydet. Mahdollisuuksien mukaan kannattaa hyödyntää EDR- tai XDR-ratkaisuja, jotka havaitsevat monimutkaisempia hyökkäysketjuja eri päätelaitteiden välillä. Jos omaa osaamista ei ole, valvontaa ja suojausta voi hankkia palveluna (MSP/MSSP), usein kohtuullisin kustannuksin.
+**[Haittaohjelmasuojaus](/it-palvelut/tietoturva-total-ja-lite) ja palomuurit kuuluvat perusvarustukseen.** Jokaisessa yrityksen laitteessa tulee olla ajantasainen haittaohjelmasuojaus, joka tunnistaa myös käyttäytymispohjaisia uhkia kuten kiristyshaittaohjelmien salausyrityksiä. Palomuurit tulee pitää päällä ja konfiguroida estämään luvattomat yhteydet. Mahdollisuuksien mukaan kannattaa hyödyntää EDR- tai XDR-ratkaisuja, jotka havaitsevat monimutkaisempia hyökkäysketjuja eri päätelaitteiden välillä. Jos omaa osaamista ei ole, valvontaa ja suojausta voi hankkia palveluna (MSP/MSSP), usein kohtuullisin kustannuksin.
 
 **Päivitysten hallinta ehkäisee suurimman osan uhkista.** Tietoturvapäivitykset on asennettava heti kun ne julkaistaan, mielellään automaattisesti ja keskitetysti. Monet tietomurrot perustuvat tunnettuihin haavoittuvuuksiin, joihin olisi olemassa korjaus. Esimerkiksi vuoden 2023 lopulla julkistetut haavoittuvuudet VPN-ohjelmistoissa (kuten Ivanti ja Palo Alto) johtivat kiireellisiin päivityksiin myös Suomessa. Yrityksen tulisi ottaa käyttöön päivityskäytännöt, jotka kattavat käyttöjärjestelmät, selaimet, sovellukset ja myös laitteistojen ohjelmistot, kuten reitittimet ja tukiasemat.
 
@@ -67,7 +67,7 @@ Työntekijät ovat yrityksen ensimmäinen puolustuslinja, mutta myös heikoin le
 
 Vaikka kaikki muut tietoturvakäytännöt olisivat kunnossa, inhimillisiä virheitä, laitteistovikoja tai haittaohjelmia ei voida koskaan täysin estää. Siksi varmuuskopiointi on olennainen osa työntekijöiden tietoturvaa. Kun tiedot ovat tallessa myös alkuperäisen järjestelmän ulkopuolella, yritys voi toipua nopeasti häiriötilanteista.
 
-[Varmuuskopioinnin](https://www.tdp.fi/it-palvelut/varmuuskopiointi) tulee olla automaattista, säännöllistä ja testattua. Käytännössä tämä tarkoittaa sitä, että tiedostot, sähköpostit, järjestelmät ja palvelut varmuuskopioidaan automaattisesti taustalla, ilman että työntekijän tarvitsee tehdä mitään. Vähintään yhtä tärkeää on varmistaa, että varmuuskopiot toimivat – eli niitä testataan säännöllisesti palauttamalla tietoa.
+[Varmuuskopioinnin](/it-palvelut/varmuuskopiointi) tulee olla automaattista, säännöllistä ja testattua. Käytännössä tämä tarkoittaa sitä, että tiedostot, sähköpostit, järjestelmät ja palvelut varmuuskopioidaan automaattisesti taustalla, ilman että työntekijän tarvitsee tehdä mitään. Vähintään yhtä tärkeää on varmistaa, että varmuuskopiot toimivat – eli niitä testataan säännöllisesti palauttamalla tietoa.
 
 Pilvipalvelut tuovat mukanaan oletuksen, että tiedot ovat aina turvassa. Todellisuudessa esimerkiksi Microsoft 365 ei tarjoa kattavaa varmuuskopiointia käyttäjän virheiden tai haittaohjelmien varalta. Siksi omat varmistusratkaisut ovat edelleen tarpeen. Erityisesti pk-yrityksissä tämä voi olla helppo ja kustannustehokas tapa varautua pahimpaan.
 
@@ -164,7 +164,7 @@ Tietoturvapolitiikkojen keskitetty hallinta tuo järjestelmällisyyttä. Esimerk
 * USB-muistien käytön esto
 * Lokitietojen keruu ja varmuuskopiointi
 
-[Keskitetty hallinta](https://www.tdp.fi/it-palvelut/keskitetty-hallinta) varmistaa yhdenmukaiset asetukset kaikille työntekijöille ja säästää aikaa laitehallinnassa.
+[Keskitetty hallinta](/it-palvelut/keskitetty-hallinta) varmistaa yhdenmukaiset asetukset kaikille työntekijöille ja säästää aikaa laitehallinnassa.
 
 ### Ohjelmistojen ja kehitysympäristöjen turvaaminen
 
@@ -210,7 +210,7 @@ Tekniikka yksin ei riitä, jos yrityksen kulttuuri ei tue tietoturvaa. Tietoturv
 
 ### Koulutus ja osaaminen
 
-Säännöllinen [tietoturvakoulutus](https://www.tdp.fi/it-palvelut/tdp-kyberakatemia) on yksi tehokkaimmista keinoista ehkäistä inhimillisiä virheitä. Usein tähän riittää vuosittainen koulutus tai lyhyt infohetki, jossa käydään läpi:
+Säännöllinen [tietoturvakoulutus](/it-palvelut/tdp-kyberakatemia) on yksi tehokkaimmista keinoista ehkäistä inhimillisiä virheitä. Usein tähän riittää vuosittainen koulutus tai lyhyt infohetki, jossa käydään läpi:
 
 * Ajankohtaiset uhat (esim. uusimmat huijaustyypit)
 * Perustaidot: salasanahygienia, viestien tunnistus, yrityksen pelisäännöt
@@ -269,10 +269,10 @@ Lisäksi NCC-FI jakaa tukea pk-yritysten tietoturvahankkeisiin. Vuonna 2024 tät
 
 Yrityksillä on jatkuvasti haasteita tietoturvassa: rajalliset resurssit, monipuoliset uhkat ja jatkuvasti kehittyvä sääntely. Samalla ne ovat yhä useammin kyberrikollisten kohteena. Tässä raportissa tarkastelimme tietoturvaa neljästä näkökulmasta:
 
-1. **Työntekijöiden tietoturva** – ihmiset ovat avainasemassa, ja oikeilla työkaluilla ja koulutuksella heistä voi tulla tietoturvan paras puolustuslinja.[Keskitetty hallinta](https://www.tdp.fi/it-palvelut/keskitetty-hallinta) auttaa hallitsemaan identiteettejä, sekä käyttöoikeuksia tehokkaasti ja [Tietoturva -palvelu](https://www.tdp.fi/it-palvelut/tietoturva-total-ja-lite) suojaa päätelaitteet
+1. **Työntekijöiden tietoturva** – ihmiset ovat avainasemassa, ja oikeilla työkaluilla ja koulutuksella heistä voi tulla tietoturvan paras puolustuslinja.[Keskitetty hallinta](/it-palvelut/keskitetty-hallinta) auttaa hallitsemaan identiteettejä, sekä käyttöoikeuksia tehokkaasti ja [Tietoturva -palvelu](/it-palvelut/tietoturva-total-ja-lite) suojaa päätelaitteet
 2. **Verkkoliikenteen suojaus** – salaus, palomuurit ja verkon hallinta estävät ulkoiset hyökkäykset.
 3. **Sisäverkkojen turvaaminen** – laitteiden ja järjestelmien kunnossapito, päivitykset ja valvonta ehkäisevät haittoja.
-4. **Tietoturvatietoisuus ja -kulttuuri** – ilman osaamista ja oikeaa asennetta mikään teknologia ei riitä. [TDP Kyberakatemia](https://www.tdp.fi/it-palvelut/tdp-kyberakatemia) tarjoaa kaikille käyttäjille koulutusalustan oman tietoturvatietoisuuden kehittämiseksi.
+4. **Tietoturvatietoisuus ja -kulttuuri** – ilman osaamista ja oikeaa asennetta mikään teknologia ei riitä. [TDP Kyberakatemia](/it-palvelut/tdp-kyberakatemia) tarjoaa kaikille käyttäjille koulutusalustan oman tietoturvatietoisuuden kehittämiseksi.
 
 Tietoturva ei ole enää vain IT-osaston asia – se on koko yrityksen kilpailukyvyn, maineen ja jatkuvuuden kannalta ratkaisevaa. Hyvin hoidettu tietoturva säästää aikaa, vähentää riskejä ja lisää asiakkaiden luottamusta.
 

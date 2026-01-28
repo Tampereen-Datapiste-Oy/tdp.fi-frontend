@@ -53,7 +53,7 @@ Yrityksesi IT-tarpeiden hintaa et saa vaivattomammin selville!
 
 
 
-<CallToAction bgColor="brand" url="https://www.tdp.fi/it-laitteet/arviolaskuri/" align="center">Kokeile laskuria</CallToAction>
+<CallToAction bgColor="brand" url="/it-laitteet/arviolaskuri/" align="center">Kokeile laskuria</CallToAction>
 
 </div>
 

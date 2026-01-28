@@ -32,7 +32,7 @@ Kansainvälisesti Suomi kuuluu tekoälyn hyödyntämisen kärkimaihin, vaikka l�
 
 Yrityksissä tekoäly tuo konkreettista helpotusta ennen kaikkea arjen rutiineihin ja ajankäyttöön. Yleisimmät käyttökohteet liittyvät viestintään, ideointiin ja tiedon käsittelyyn. Tekoälyä hyödynnetään esimerkiksi tekstien ja sähköpostien luonnostelussa, sisällön ideoinnissa, tiivistysten tekemisessä ja tiedonhaussa.
 
-Moni yritys on aloittanut matalalla kynnyksellä helposti saatavilla olevilla generatiivisilla AI-työkaluilla. Samalla yhä useampi on siirtynyt hyödyntämään tekoälyä suoraan liiketoimintaympäristöön integroituna, esimerkiksi osana [Google](https://www.tdp.fi/ohjelmistot/google-workspace/) tai [Microsoft 365](https://www.tdp.fi/ohjelmistot/microsoft-365/) -ympäristöä. Tällöin tekoäly tukee tuttujen työkalujen käyttöä suurten valmistajien tietoturvakäytänteiden mukaisesti. 
+Moni yritys on aloittanut matalalla kynnyksellä helposti saatavilla olevilla generatiivisilla AI-työkaluilla. Samalla yhä useampi on siirtynyt hyödyntämään tekoälyä suoraan liiketoimintaympäristöön integroituna, esimerkiksi osana [Google](/ohjelmistot/google-workspace/) tai [Microsoft 365](/ohjelmistot/microsoft-365/) -ympäristöä. Tällöin tekoäly tukee tuttujen työkalujen käyttöä suurten valmistajien tietoturvakäytänteiden mukaisesti. 
 
 ### **Ihmisen rooli**
 
@@ -163,7 +163,7 @@ Yritykset, jotka lähtevät liikkeelle hallitusti ja omista tarpeistaan käsin, 
 
 Olennaista on muistaa, että tekoäly ei itsessään ratkaise mitään. Arvon tuottaa se, miten teknologiaa käytetään, mihin sitä hyödynnetään ja miten käyttöä ohjataan. Oikeilla valinnoilla tekoäly vapauttaa aikaa, parantaa työn laatua ja tukee yrityksen kasvua pitkällä aikavälillä.
 
-Jos pohdit, miten tekoäly voisi tukea juuri teidän yritystänne, keskustelu asiantuntijan kanssa auttaa usein hahmottamaan kokonaisuutta ja seuraavia askelia. Usein ensimmäinen askel on pienempi kuin miltä se alkuun tuntuu. [Ota yhteyttä](<https://www.tdp.fi/ai_k%C3%A4ytt%C3%B6%C3%B6notto/#contact-form>) ja kysy lisää.
+Jos pohdit, miten tekoäly voisi tukea juuri teidän yritystänne, keskustelu asiantuntijan kanssa auttaa usein hahmottamaan kokonaisuutta ja seuraavia askelia. Usein ensimmäinen askel on pienempi kuin miltä se alkuun tuntuu. [Ota yhteyttä](</ai_k%C3%A4ytt%C3%B6%C3%B6notto/#contact-form>) ja kysy lisää.
 
 ![Kuvituskuva: Isometrinen 3D-visualisointi, jossa kirkkaana hehkuva koodilla täytetty kultainen kuutio prosessoi ympärilleen pinottuja tummia datalevyjä, symboloiden tiedon tehokasta järjestämistä ja tekoälypohjaista hallintaa.](../../static/assets/kuva-abstract-ai-käyttöönotto2.jpg "Data-arkkitehtuurin modernisointi ja AI:n tehokas hyötykäyttö")
 

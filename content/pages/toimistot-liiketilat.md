@@ -38,7 +38,7 @@ contactForm: Ota yhteyttä
 
 *Tarvitsetko arvion IT-kokonaisuuden kustannuksista?*
 
-<CallToAction bgColor="dark" url="https://www.tdp.fi/it-laitteet/arviolaskuri/" align="left">Kokeile laskuria</CallToAction>
+<CallToAction bgColor="dark" url="/it-laitteet/arviolaskuri/" align="left">Kokeile laskuria</CallToAction>
 
 <CallToAction bgColor="dark" url="#contact-form" align="left">Jätä tarjouspyyntö</CallToAction>
 
@@ -63,13 +63,13 @@ Tarjoamme yrityksellesi toimivat ja yhteensopivat ratkaisut koko toimiston ja li
 
 **Info- ja mainosnäytöt liiketiloihin:** Infonäytöt ja digitaaliset näyttöratkaisut asiakasviestintään, opastukseen ja markkinointiin.
 
-**Verkkolaitteet ja liitettävyysratkaisut:** Luotettavat ja turvalliset[ verkkoratkaisut](https://www.tdp.fi/it-laitteet/yrityksen-verkkoyhteydet/) toimistoihin ja liiketiloihin.
+**Verkkolaitteet ja liitettävyysratkaisut:** Luotettavat ja turvalliset[ verkkoratkaisut](/it-laitteet/yrityksen-verkkoyhteydet/) toimistoihin ja liiketiloihin.
 
 ### Asennus, käyttöönotto ja tuki
 
 Laitteet voidaan toimittaa käyttökuntoon valmiiksi asennettuina, tarvittavat ohjelmistot esiasennettuina ja testattuina. Tarvittaessa tarjoamme myös käyttöönotto-opastuksen, jotta henkilöstö pääsee heti tehokkaaseen työskentelyyn ilman ylimääräistä säätöä.
 
-Toimiston ja liiketilan IT-laitteet voidaan toteuttaa selkeänä kokonaisuutena, jossa laitteet, asennus ja [tuki](https://www.tdp.fi/it-palvelut/tuki-ja-huolto/) muodostavat yhtenäisen kokonaisuuden. Palvelumalli mukautuu yrityksesi tarpeisiin ja tukee kasvua. Kun IT on suunniteltu ja toteutettu kokonaisuutena, hyödyt näkyvät arjen työssä:
+Toimiston ja liiketilan IT-laitteet voidaan toteuttaa selkeänä kokonaisuutena, jossa laitteet, asennus ja [tuki](/it-palvelut/tuki-ja-huolto/) muodostavat yhtenäisen kokonaisuuden. Palvelumalli mukautuu yrityksesi tarpeisiin ja tukee kasvua. Kun IT on suunniteltu ja toteutettu kokonaisuutena, hyödyt näkyvät arjen työssä:
 
 * Vähemmän häiriöitä ja keskeytyksiä
 * Nopeampi käyttöönotto ja sujuvampi käyttökokemus

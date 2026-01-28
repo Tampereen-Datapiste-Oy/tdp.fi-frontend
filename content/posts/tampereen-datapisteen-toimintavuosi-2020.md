@@ -17,7 +17,7 @@ contactForm: Ota yhteyttä
 
 Koronan osalta vuosi oli TDP:llekin toki haastava. Asioita ja asiakkuuksia jouduttiin hoitamaan entistä enemmän etänä, lisäksi koronan vaatimiin muutoksiin kului resursseja. Toisaalta vuosi tarjosi luontevan syyn kehittää pidemmälle etätukipalvelujamme, jotka näemme keskeisenä, asiakkaillemme arvoa tuovana osa-alueena.
 
-Loppuvuodesta teimme lisäpanostuksia Datapisteen markkinointipuolelle. Yrityksen ulkopuolisten ammattilaisten avulla käynnistettiin kevyt kotisivu-uudistus sekä uuden sovelluksen käyttöönotto. Kyseinen sovellus eli [TDP SLIM™ -palvelu](https://www.tdp.fi/tdp-slim) on apuväline, joka mahdollistaa asiakasyritykselle tarvitsemiensa laitteiden ja palveluiden helpon tarjouslaskennan. Toisena uutena asiana sivuillemme tulivat [referenssitarinat](https://www.tdp.fi/referenssit), joissa annamme asiakkaillemme äänen kertoa yhteistyöstä kanssamme.
+Loppuvuodesta teimme lisäpanostuksia Datapisteen markkinointipuolelle. Yrityksen ulkopuolisten ammattilaisten avulla käynnistettiin kevyt kotisivu-uudistus sekä uuden sovelluksen käyttöönotto. Kyseinen sovellus eli [TDP SLIM™ -palvelu](/tdp-slim) on apuväline, joka mahdollistaa asiakasyritykselle tarvitsemiensa laitteiden ja palveluiden helpon tarjouslaskennan. Toisena uutena asiana sivuillemme tulivat [referenssitarinat](/referenssit), joissa annamme asiakkaillemme äänen kertoa yhteistyöstä kanssamme.
 
 Henkilöstön osalta suuria muutoksia TDP:ssä ei viime vuonna tapahtunut. Tuttu, osaava henkilöstö pysyi koossa ja yhteishenki oli läpi vuoden yrityksessä vahva. Työntekijöiden roolitusta hieman selkiytettiin eriyttämällä palvelinpuolen, verkkotekniikan ja laskutuksen kysymykset erillisille vastuuhenkilöille.
 

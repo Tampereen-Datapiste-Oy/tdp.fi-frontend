@@ -41,7 +41,7 @@ Hyvä käyttäjätuki tukee yrityksesi monien tavoitteiden toteutumista:
 * Työntekijäkokemus ja työviihtyvyys säilyvät korkeana
 * Kukaan ei valita IT-kumppanin surkeasta valinnasta!
 
-[Lue lisää TDP:n asiakaspalvelusta](https://www.tdp.fi/referenssit)
+[Lue lisää TDP:n asiakaspalvelusta](/referenssit)
 
 ![](../../static/assets/image5.jpg)
 
@@ -58,7 +58,7 @@ TDP on virallinen JumpCloud -kumppani. JumpCloudin keskitetyllä hallinnalla voi
 Hajanaiset Excel-tiedostot salasanoista ja muut erillisratkaisut korvataan ohjelmistolla, joka hallitsee niin Windows-, Mac- kuin Linux-järjestelmät samanaikaisesti, ja työntekijä pääsee kertakirjautumisella käsiksi kaikkiin sovelluksiin.
 
 Keskitetty hallinta tarjoaa yrityksellesi useita etuja, joista voit lukea lisää täältä:
-[JumpCloud | Keskitetty hallinta | TDP](https://www.tdp.fi/ohjelmistot/jumpcloud)
+[JumpCloud | Keskitetty hallinta | TDP](/ohjelmistot/jumpcloud)
 
 ![](../../static/assets/google-asiantuntija-tinified.jpg)
 
@@ -74,4 +74,4 @@ Onko sinunkin yrityksessäsi kasa erillisiä ohjelmistoja erillisellä koneella,
 
 Suomalaisena Google-asiantuntijana TDP auttaa ottamaan Googlen palveluista parhaan hyödyn irti. Olemme Googlen auktorisoima jälleenmyyjä ja auttaneet yli 100 yritystä ottamaan käyttöön Google Workspacen.
 
-[Lue lisää Google Workspacesta](https://www.tdp.fi/ohjelmistot/google-workspace)
+[Lue lisää Google Workspacesta](/ohjelmistot/google-workspace)

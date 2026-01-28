@@ -28,7 +28,7 @@ breadcrumb:
 * **Turvallisuutta:** Tietoturvallisen työympäristön, jossa käyttäjät, laitteet ja pääsyoikeudet ovat hallittavissa yhdestä näkymästä.
 * **Tukea arkeen:** Suomenkielisen IT-kumppanin, joka auttaa lisenssien valinnassa, käyttöönotossa ja ongelmatilanteissa ilman chat-jonotuksia.
 
-[Pyydä tarjous!](https://www.tdp.fi/ohjelmistot/google-workspace#contact-form) 
+[Pyydä tarjous!](/ohjelmistot/google-workspace#contact-form) 
 
 ## Palvelupaketit
 
@@ -79,7 +79,7 @@ Käytännössä voimme tarjota:
 2. **Hallitun käyttöönoton**. Luomme käyttäjät, kytkemme oman verkkotunnuksen ja huolehdimme, että sähköpostit, kalenterit ja tiedostot toimivat heti alusta lähtien oikein.
 3. **Migraation** nykyisestä ympäristöstä. Autamme siirtämään postilaatikot ja tarvittavat tiedostot esimerkiksi Microsoft 365:stä, vanhasta sähköpostipalvelusta tai hajanaisista henkilökohtaisista tileistä Google Workspaceen.
 4. **Yhteiset pelisäännöt tiedonhallintaan**. Voimme auttaa suunnittelemaan yhdessä, miten jaettuja Drivejä, käyttöoikeuksia ja kansiorakenteita käytetään, jotta sopimukset ja projektit pysyvät yrityksen hallinnassa, eivät yksittäisillä käyttäjillä.
-5. **Suomenkielisen tukipalvelun**. Palveluvalikoimaamme kuuluu suomenkielinen [tukipalvelu](https://www.tdp.fi/it-palvelut/tuki-ja-huolto/). Käyttäjät voivat ottaa yhteyttä puhelimitse tai sähköpostilla ongelmatilanteissa. Palvelu on hinnoiteltavissa tuntiperusteisesti tai kiinteästi teidän tarpeenne mukaan.
+5. **Suomenkielisen tukipalvelun**. Palveluvalikoimaamme kuuluu suomenkielinen [tukipalvelu](/it-palvelut/tuki-ja-huolto/). Käyttäjät voivat ottaa yhteyttä puhelimitse tai sähköpostilla ongelmatilanteissa. Palvelu on hinnoiteltavissa tuntiperusteisesti tai kiinteästi teidän tarpeenne mukaan.
 6. **Integraatiot ja jatkokehityksen.** Tarvittaessa kytkemme Google Workspacen osaksi muita pilvipalveluja (esim. CRM tai kertakirjautuminen). Kun perusasiat ovat kunnossa, voimme auttaa hyödyntämään Gemini-tekoälyä, AppSheet-sovelluksia ja muita Workspacen laajennuksia vaiheittain.
 
 ## Mitä kannattaa huomioida lisenssiä valittaessa?
@@ -93,11 +93,11 @@ Hyviä kysymyksiä ovat:
 * **Miten varmistamme tietoturvan ja käyttöoikeudet?** Onko käytössä kaksivaiheinen tunnistautuminen, miten laitteita hallitaan ja mitä tehdään, jos tunnukset tai kannettava katoaa? Workspace tarjoaa tähän sisäänrakennetut työkalut, kun asetukset suunnitellaan oikein.
 * **Tarvitsemmeko integraatioita muihin järjestelmiin?** Hyödynnättekö CRM:ää, toiminnanohjausta tai ajanvarausta, jotka olisi luontevaa kytkeä suoraan Gmailiin tai Kalenteriin?
 * **Miten aiomme hyödyntää tekoälyä?** Haluatteko käyttää Geminiä osana sähköposteja ja dokumentteja turvallisesti, ilman että luottamuksellinen data valuu kuluttajille suunnattuihin AI-palveluihin?
-* **Miten tietokoneet ja tiedot varmuuskopioidaan?** Kun tiedostot ovat turvassa pilvessä, tietokoneen rikkoutuminen ei enää hävitä työtuloksia. On kuitenkin tärkeää huolehtia myös itse pilviympäristön palautettavuudesta inhimillisten virheiden ja hyökkäysten varalle. Tähän tarvitaan oma [lisäpalvelu](https://www.tdp.fi/it-palvelut/varmuuskopiointi/).
+* **Miten tietokoneet ja tiedot varmuuskopioidaan?** Kun tiedostot ovat turvassa pilvessä, tietokoneen rikkoutuminen ei enää hävitä työtuloksia. On kuitenkin tärkeää huolehtia myös itse pilviympäristön palautettavuudesta inhimillisten virheiden ja hyökkäysten varalle. Tähän tarvitaan oma [lisäpalvelu](/it-palvelut/varmuuskopiointi/).
 
 Näihin kysymyksiin ei tarvitse vastata yksin. Käymme ne läpi kartoituksen yhteydessä ja **rakennamme mallin, joka sopii teidän arkeenne.** 
 
-Mikäli haluat syventyä tarkemmin Workspacen ominaisuuksiin, tutustu kirjoitukseemme: "[Google Workspace pk-yrityksen arjessa – 7 tapaa tehostaa työtä](https://www.tdp.fi/googleworkspace/)". Artikkelissa avaamme käytännön esimerkkien kautta, miten Workspacea voi ja kannattaa käyttää tehokkaasti hyödyksi.
+Mikäli haluat syventyä tarkemmin Workspacen ominaisuuksiin, tutustu kirjoitukseemme: "[Google Workspace pk-yrityksen arjessa – 7 tapaa tehostaa työtä](/googleworkspace/)". Artikkelissa avaamme käytännön esimerkkien kautta, miten Workspacea voi ja kannattaa käyttää tehokkaasti hyödyksi.
 
 ## TDP kumppanina
 

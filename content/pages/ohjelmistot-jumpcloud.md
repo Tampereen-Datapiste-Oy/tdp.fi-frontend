@@ -55,7 +55,7 @@ Pelkkä hallintaohjelmisto ei riitä, jos laitehankinta on villi länsi. Saat pa
 
 ## Keskitetty hallinta laittaa IT-kaaoksen kuriin
 
-Kysy lisää asiantuntijoiltamme tai jätä [viesti](https://www.tdp.fi/it-palvelut/keskitetty-hallinta#contact-form).
+Kysy lisää asiantuntijoiltamme tai jätä [viesti](/it-palvelut/keskitetty-hallinta#contact-form).
 
 Pauli Aalto | 040 748 3818 | pauli.aalto@tdp.fi
 
@@ -97,16 +97,16 @@ TDP Toimisto | 010 292 1640 | myynti@tdp.fi
 * **Verkkoturva (Cloud RADIUS)**: Turvallinen WPA2 Enterprise WiFi ja VPN-autentikointi ilman omia palvelimia.
 * **Zero Trust & Ehdollinen pääsy**: Pääsynhallinta perustuu laitteen terveydentilaan, sijaintiin ja identiteettiin. Esimerkiksi pääsy CRM:ään voidaan estää, jos laitteen levynsalaus ei ole aktiivinen.
 
-Lue lisää keskitetystä hallinnasta [artikkelistamme](https://www.tdp.fi/keskitettyhallinta-jumpcloud/)!
+Lue lisää keskitetystä hallinnasta [artikkelistamme](/keskitettyhallinta-jumpcloud/)!
 
 ### Täydennä palvelukokonaisuus
 
 **Keskitetty hallinta** on hyvä perusta, mutta kokonaisvaltainen suoja kaipaa myös datan ja ihmisten turvaamista.
 
-* **[IT -tuki:](https://www.tdp.fi/it-palvelut/tuki-ja-huolto/)** Tukipalvelut varmistavat nopean ja kustannustehokkaan avun ongelmatilanteissa selkeällä suomen kielellä. 
-* **[Pilvipalveluiden varmuuskopiointi](https://www.tdp.fi/it-palvelut/varmuuskopiointi/) ([M365](https://www.tdp.fi/ohjelmistot/microsoft-365/) / [Google Workspace](https://www.tdp.fi/ohjelmistot/google-workspace/)):** Synkronointi ei ole varmuuskopiointia. Jos tiedosto poistetaan tai saastuu pilvessä, ilman erillistä varmistusta se katoaa kaikilta laitteilta.
-* **[Tietoturva (Antivirus + EDR)](https://www.tdp.fi/it-palvelut/tietoturva-total-ja-lite/):** JumpCloud tarjoaa hallinnan. Aktiivinen päätelaitteiden suojaus ja uhkien ennakoiva torjunta täydentävät sitä tehokkaasti.
-* **[Koulutus (Kyberakatemia)](https://www.tdp.fi/it-palvelut/tdp-kyberakatemia/):** Tekninen esto ei poista inhimillistä riskiä. Ihminen on usein tietoturvan heikoin lenkki. Kouluta henkilöstö tunnistamaan kalastelu ja huijausyritykset TDP Kyberakatemian avulla.
+* **[IT -tuki:](/it-palvelut/tuki-ja-huolto/)** Tukipalvelut varmistavat nopean ja kustannustehokkaan avun ongelmatilanteissa selkeällä suomen kielellä. 
+* **[Pilvipalveluiden varmuuskopiointi](/it-palvelut/varmuuskopiointi/) ([M365](/ohjelmistot/microsoft-365/) / [Google Workspace](/ohjelmistot/google-workspace/)):** Synkronointi ei ole varmuuskopiointia. Jos tiedosto poistetaan tai saastuu pilvessä, ilman erillistä varmistusta se katoaa kaikilta laitteilta.
+* **[Tietoturva (Antivirus + EDR)](/it-palvelut/tietoturva-total-ja-lite/):** JumpCloud tarjoaa hallinnan. Aktiivinen päätelaitteiden suojaus ja uhkien ennakoiva torjunta täydentävät sitä tehokkaasti.
+* **[Koulutus (Kyberakatemia)](/it-palvelut/tdp-kyberakatemia/):** Tekninen esto ei poista inhimillistä riskiä. Ihminen on usein tietoturvan heikoin lenkki. Kouluta henkilöstö tunnistamaan kalastelu ja huijausyritykset TDP Kyberakatemian avulla.
 
 ### Miten etenemme?
 
@@ -125,7 +125,7 @@ Joustava ylläpito: Jatkossa valinta on teidän. IT-tiimillenne on tarjolla mode
 
 *Esittele meille yrityksesi haasteet laitteiden, käyttäjien ja tunnusten hallinnassa, me kerromme siihen ratkaisumallimme palvelulupausta ja hintatietoja myöten.*
 
-*[Ota yhteyttä](https://www.tdp.fi/it-palvelut/keskitetty-hallinta#contact-form), niin rakennetaan juuri teille sopiva moderni ja turvallinen IT-ympäristö!*
+*[Ota yhteyttä](/it-palvelut/keskitetty-hallinta#contact-form), niin rakennetaan juuri teille sopiva moderni ja turvallinen IT-ympäristö!*
 
 - - -
 

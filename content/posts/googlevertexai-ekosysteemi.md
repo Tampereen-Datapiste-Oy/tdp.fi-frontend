@@ -73,7 +73,7 @@ Yrityksille tämä tarkoittaa nopeutta ja ketteryyttä. Meidän ei tarvitse aloi
 
 **Vertex AI:n** suurin vahvuus piilee siinä, ettei se ole erillinen saareke. Se on suunniteltu toimimaan saumattomasti yhteen niiden työkalujen kanssa, joita todennäköisesti jo käytät.
 
-* **[Google Workspace](https://www.tdp.fi/ohjelmistot/google-workspace/)** (Gmail, Drive, Docs): Tekoäly voidaan kytkeä auttamaan suoraan sähköpostien laatimisessa tai hakemaan tietoa Drivesta (aina käyttäjän luvalla).
+* **[Google Workspace](/ohjelmistot/google-workspace/)** (Gmail, Drive, Docs): Tekoäly voidaan kytkeä auttamaan suoraan sähköpostien laatimisessa tai hakemaan tietoa Drivesta (aina käyttäjän luvalla).
 * **BigQuery** (Tietovarasto): Jos yrityksesi kerää dataa tietovarastoon, tekoäly voi analysoida sitä suoraan siellä. Voitte esimerkiksi pyytää tekoälyä analysoimaan vapaamuotoista asiakaspalautetta suoraan datakyselyn yhteydessä.
 * **Muut järjestelmät** (esim. Salesforce, SAP, HubSpot): Valmiiden laajennusten ja konnektoreiden ansiosta tekoäly saadaan keskustelemaan myös yrityksesi muiden tärkeiden järjestelmien, kuten asiakkuudenhallinnan (CRM), kanssa.
 
@@ -141,7 +141,7 @@ Me voimme kumppanina auttaa tunnistamaan parhaat ideat ja toteuttamaan ensimmäi
 
 Monia yrittäjiä mietityttää, että tarkoittaako tekoälyn käyttöönotto automaattisesti valtavaa, kuukausien IT-projektia ja kalliita laitehankintoja. **Google Vertex AI:n** kohdalla vastaus on selkeä: **ei tarkoita.**
 
-Koska kyseessä on **Googlen pilvialusta**, teidän ei tarvitse investoida omiin palvelimiin tai niiden ylläpitoon. Jos yrityksellänne on jo käytössä [Google Workspace](https://www.tdp.fi/ohjelmistot/google-workspace/) tai muita **Google Cloud** -palveluita, kuten **BigQuery**, **Vertex AI** istuu saumattomasti ja luontevasti samaan, tuttuun ympäristöön.
+Koska kyseessä on **Googlen pilvialusta**, teidän ei tarvitse investoida omiin palvelimiin tai niiden ylläpitoon. Jos yrityksellänne on jo käytössä [Google Workspace](/ohjelmistot/google-workspace/) tai muita **Google Cloud** -palveluita, kuten **BigQuery**, **Vertex AI** istuu saumattomasti ja luontevasti samaan, tuttuun ympäristöön.
 
 #### Nopeita tuloksia ja pienempi riski
 
@@ -258,7 +258,7 @@ Nyt on oikea hetki toimia. Tekoäly on kehittynyt pisteeseen, jossa sen hyödynt
 
 Haluatko selvittää, mitä tekoäly voisi tehdä juuri teidän liiketoiminnassanne?
 
-[Ota meihin yhteyttä.](https://www.tdp.fi/GoogleVertexAI-ekosysteemi/#contact-form) Lupauksemme on, ettemme yritä myydä sinulle monimutkaista järjestelmää, vaan käydään yhdessä läpi teidän arjen haasteenne. Autamme tunnistamaan sen ensimmäisen pienen kokeilun, jolla saadaan aikaan suurin hyöty.
+[Ota meihin yhteyttä.](/GoogleVertexAI-ekosysteemi/#contact-form) Lupauksemme on, ettemme yritä myydä sinulle monimutkaista järjestelmää, vaan käydään yhdessä läpi teidän arjen haasteenne. Autamme tunnistamaan sen ensimmäisen pienen kokeilun, jolla saadaan aikaan suurin hyöty.
 
 Olemme täällä auttaaksemme teitä ottamaan ensimmäisen askeleen ja **varmistaaksemme, että siitä kasvaa menestystarina!**
 

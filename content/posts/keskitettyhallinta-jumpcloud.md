@@ -31,7 +31,7 @@ Käytännön haasteita sirpaleisissa ympäristössä:
 
 ### Ratkaisu
 
-Ratkaisu pirstaleisuuteen on **[Keskitetty hallinta (JumpCloud)](https://www.tdp.fi/it-palvelut/keskitetty-hallinta/)**. Kun käyttäjäidentiteetit, pääsynhallinta ja laitteiden hallinta yhdistetään yhteen moderniin pilvialustaan, kokonaisuus muuttuu **hallittavaksi, tehokkaaksi ja turvalliseks**i.
+Ratkaisu pirstaleisuuteen on **[Keskitetty hallinta (JumpCloud)](/it-palvelut/keskitetty-hallinta/)**. Kun käyttäjäidentiteetit, pääsynhallinta ja laitteiden hallinta yhdistetään yhteen moderniin pilvialustaan, kokonaisuus muuttuu **hallittavaksi, tehokkaaksi ja turvalliseks**i.
 
 **Keskitetty hallinta** tarkoittaa, että:
 
@@ -61,7 +61,7 @@ Ratkaisu pirstaleisuuteen on **[Keskitetty hallinta (JumpCloud)](https://www.tdp
 
 **Identiteetit, pääsy ja laitteet**
 
-**[Keskitetty hallinta](https://www.tdp.fi/it-palvelut/keskitetty-hallinta/)** rakentuu kolmesta selkeästä peruspilarista, jotka muodostavat modernin ja turvallisen IT ympäristön ytimen: **identiteettien hallinta, pääsynhallinta ja laitehallinta**. Näiden osa alueiden yhdistäminen saman pilvipohjaisen alustan alle on se tekijä, joka tekee Keskitetystä hallinnasta tehokkaan ratkaisun yrityksille.
+**[Keskitetty hallinta](/it-palvelut/keskitetty-hallinta/)** rakentuu kolmesta selkeästä peruspilarista, jotka muodostavat modernin ja turvallisen IT ympäristön ytimen: **identiteettien hallinta, pääsynhallinta ja laitehallinta**. Näiden osa alueiden yhdistäminen saman pilvipohjaisen alustan alle on se tekijä, joka tekee Keskitetystä hallinnasta tehokkaan ratkaisun yrityksille.
 
 Kun nämä kolme toimivat yhdessä, IT ei ole enää irrallisia sovelluksia ja asetuksia, vaan **hallittu ja läpinäkyvä kokonaisuus, jossa kaikki osat tukevat toisiaan**.
 
@@ -98,8 +98,8 @@ Pääsynhallinnan tehtävä on varmistaa, että oikeat ihmiset pääsevät oikei
 
 Työntekijä kirjautuu kerran **JumpCloudiin** ja pääsee sen jälkeen kaikkiin tarvitsemiinsa pilvipalveluihin, kuten:
 
-* [Microsoft 365 ](https://www.tdp.fi/ohjelmistot/microsoft-365/) 
-* [Google Workspace](https://www.tdp.fi/ohjelmistot/google-workspace/)  
+* [Microsoft 365 ](/ohjelmistot/microsoft-365/) 
+* [Google Workspace](/ohjelmistot/google-workspace/)  
 * Slack  
 * Zoom  
 * CRM , ERP  ja HR järjestelmät
@@ -129,7 +129,7 @@ Laitehallinnan tehtävä on varmistaa, että työntekijöiden käyttämät laitt
 
 ### **Laitekanta**
 
-**[Keskitetty hallinta](https://www.tdp.fi/it-palvelut/keskitetty-hallinta/)** näyttää yhdellä näkymällä kaikki Windows , macOS , Linux , iOS  ja Android laitteet sekä niiden:
+**[Keskitetty hallinta](/it-palvelut/keskitetty-hallinta/)** näyttää yhdellä näkymällä kaikki Windows , macOS , Linux , iOS  ja Android laitteet sekä niiden:
 
 * **Käyttöjärjestelmäversion**  
 * **Turvallisuustilan**  
@@ -281,7 +281,7 @@ Palvelu vie yrityksen askeleen pidemmälle: pois salasanojen ongelmista ja kohti
 
 Yritysten IT on usein rakentunut pala kerrallaan ja lopputulos on helposti sirpaleinen kokonaisuus. Useita kirjautumisia, irrallisia laitekäytäntöjä ja kasvava määrä pilvipalveluja, joihin ei ole kunnollista näkyvyyttä. Tämä ei ole vain hallinnollinen haaste, vaan myös liiketoimintariski: **identiteettivarkaudet, kalastelut ja hallitsemattomat laitteet ovat tämän päivän yleisimpiä hyökkäyskanavia.**
 
-**[Keskitetty hallinta](https://www.tdp.fi/it-palvelut/keskitetty-hallinta/)** ratkaisee tämän ongelman tuomalla **identiteetit, pääsyn ja laitteet yhden modernin, pilvipohjaisen alustan alle**. Kun kirjautuminen, sovellusoikeudet ja laitteiden turvallisuus hallitaan samassa järjestelmässä, IT:stä tulee turvallinen ja helposti ylläpidettävä kokonaisuus.Ilman raskaita palvelimia tai monimutkaisia erillisratkaisuja.
+**[Keskitetty hallinta](/it-palvelut/keskitetty-hallinta/)** ratkaisee tämän ongelman tuomalla **identiteetit, pääsyn ja laitteet yhden modernin, pilvipohjaisen alustan alle**. Kun kirjautuminen, sovellusoikeudet ja laitteiden turvallisuus hallitaan samassa järjestelmässä, IT:stä tulee turvallinen ja helposti ylläpidettävä kokonaisuus.Ilman raskaita palvelimia tai monimutkaisia erillisratkaisuja.
 
 Yritykselle tämä näkyy käytännössä:
 
@@ -300,7 +300,7 @@ Autamme suunnittelemaan, käyttöönoton ja kokonaisuuden, joka vastaa juuri yri
 * Millaisia kustannussäästöjä keskitetty hallinta voi tuoda  
 * Miten käyttöönotto voidaan hoitaa vaiheittain ja riskittömästi
 
-**Älä jää jälkeen, [ota yhteyttä](https://www.tdp.fi/keskitettyhallinta-jumpcloud/#contact-form) ja tee IT:stä yrityksesi uusi kilpailuetu!**
+**Älä jää jälkeen, [ota yhteyttä](/keskitettyhallinta-jumpcloud/#contact-form) ja tee IT:stä yrityksesi uusi kilpailuetu!**
 
 ![Kuvituskuva: IT laitteet ja hallinta](../../static/assets/kuva-artikkeli-keskitetty-hallinta1.jpg "Etsitkö vastauksia? Kaikki tieto JumpCloudista yhdessä paikassa")
 
@@ -310,7 +310,7 @@ Autamme suunnittelemaan, käyttöönoton ja kokonaisuuden, joka vastaa juuri yri
 
 **Keskitetty hallinta** voi korvata perinteisen **Active Directoryn**, **erilliset laitehallintaratkaisut** (MDM/UEM), **VPN pohjaiset kirjautumiset, kertakirjautumisen** (SSO) palvelut sekä useat irralliset tietoturvapalikat. Tuloksena on yksi yhtenäinen järjestelmä, jossa **identiteetit, pääsyoikeudet ja laitteet hallitaan samasta paikasta**.
 
-### **Toimiiko keskitetty hallinta [Microsoft 365](https://www.tdp.fi/ohjelmistot/microsoft-365/):n ja [Google Workspacen](https://www.tdp.fi/ohjelmistot/google-workspace/) kanssa?**
+### **Toimiiko keskitetty hallinta [Microsoft 365](/ohjelmistot/microsoft-365/):n ja [Google Workspacen](/ohjelmistot/google-workspace/) kanssa?**
 
 **Kyllä.** Keskitetty hallinta integroituu natiivisti sekä **Microsoft 365:een että Google Workspaceen**. Käyttäjätilit synkronoituvat automaattisesti, ja kirjautuminen voidaan hoitaa SSO:n ja MFA:n kautta.
 

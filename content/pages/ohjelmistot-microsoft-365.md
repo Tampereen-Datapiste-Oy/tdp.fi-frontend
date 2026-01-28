@@ -111,7 +111,7 @@ Pauli Aalto | 040 748 3818 | [pauli.aalto@tdp.fi](mailto:pauli.aalto@tdp.fi)
 
 TDP Toimisto | 010 292 1640 | [myynti@tdp.fi](mailto:myynti@tdp.fi)
 
-Tai jätä [viesti](https://www.tdp.fi/ohjelmistot/microsoft-365#contact-form).
+Tai jätä [viesti](/ohjelmistot/microsoft-365#contact-form).
 
 </div>
 
@@ -152,10 +152,10 @@ Pelkkä lisenssien ostaminen ei riitä. Jotta ympäristö palvelee liiketoiminta
 
 1. **Käyttäjäryhmät:** Tarvitseeko johto tai taloushallinto vahvemman tietoturvatason (Premium) kuin muu organisaatio?
 2. **Tiedon sijainti:** Mitä tallennetaan OneDriveen (omat) ja mitä SharePointiin (yhteiset)? Jos tätä ei sovita, tieto pirstaloituu.
-3. **Laitehallinta:** Onko macOS tai Linux -laitteita, jotka halutaan [Keskitetyn hallinnan](https://www.tdp.fi/it-palvelut/keskitetty-hallinta/) piiriin? 
+3. **Laitehallinta:** Onko macOS tai Linux -laitteita, jotka halutaan [Keskitetyn hallinnan](/it-palvelut/keskitetty-hallinta/) piiriin? 
 4. **Ulkoinen jakaminen:** Miten jaatte tiedostoja turvallisesti asiakkaiden kanssa ilman, että linkit jäävät ikuisesti auki?
-5. **Varmuuskopiointi:** Synkronointi pilveen ei ole varmuuskopiointia. Jos tiedosto poistetaan vahingossa tai se saastuu, se voi kadota lopullisesti ilman erillistä[ Pilvivarmistus palvelua.](https://www.tdp.fi/it-palvelut/varmuuskopiointi/)
-6. **Tuki:** Mistä kysytään [apua ongelmatilanteissa](https://www.tdp.fi/it-palvelut/tuki-ja-huolto/)?
+5. **Varmuuskopiointi:** Synkronointi pilveen ei ole varmuuskopiointia. Jos tiedosto poistetaan vahingossa tai se saastuu, se voi kadota lopullisesti ilman erillistä[ Pilvivarmistus palvelua.](/it-palvelut/varmuuskopiointi/)
+6. **Tuki:** Mistä kysytään [apua ongelmatilanteissa](/it-palvelut/tuki-ja-huolto/)?
 
 Näihin ei tarvitse keksiä vastauksia yksin. Kartoituksessa rakennamme mallin, joka sopii juuri teidän arkeenne.
 
@@ -170,7 +170,7 @@ Näihin ei tarvitse keksiä vastauksia yksin. Kartoituksessa rakennamme mallin, 
 4. **Ylläpito ja arjen tuki:**
    Käyttöönoton jälkeen emme katoa. Huolehdimme käyttäjähallinnasta ja autamme ongelmatilanteissa sovitun palvelumallin mukaisesti.
 
-*[Ota yhteyttä](https://www.tdp.fi/ohjelmistot/microsoft-365/#contact-form) ja pyydä tarjous tai kartoitus. Laitetaan Microsoft 365 kerralla kuntoon, niin työt sujuvat ilman turhaa säätöä.*
+*[Ota yhteyttä](/ohjelmistot/microsoft-365/#contact-form) ja pyydä tarjous tai kartoitus. Laitetaan Microsoft 365 kerralla kuntoon, niin työt sujuvat ilman turhaa säätöä.*
 
 - - -
 
@@ -216,7 +216,7 @@ Kyllä, yleensä siirretään myös historia, kansiorakenne ja kalenterit sovitu
 
 **Tarvitaanko Microsoft 365:lle erillinen varmuuskopiointi?**
 
-Yleensä kyllä. Synkronointi ei ole varmuuskopiointia. Jos tiedosto poistetaan, ylikirjoitetaan tai saastuu, muutos voi levitä kaikkiin laitteisiin. [Pilvipalveluiden varmuuskopiointi](https://www.tdp.fi/it-palvelut/varmuuskopiointi/) tuo palautuskyvyn vahinkojen, hyökkäysten ja inhimillisten virheiden varalle.
+Yleensä kyllä. Synkronointi ei ole varmuuskopiointia. Jos tiedosto poistetaan, ylikirjoitetaan tai saastuu, muutos voi levitä kaikkiin laitteisiin. [Pilvipalveluiden varmuuskopiointi](/it-palvelut/varmuuskopiointi/) tuo palautuskyvyn vahinkojen, hyökkäysten ja inhimillisten virheiden varalle.
 
 **Mitä Business Premium tuo lisää verrattuna Standardiin?**
 
@@ -224,7 +224,7 @@ Premiumissa korostuvat vaatimustenmukaisuus ja hallinta. Tyypillisiä lisähyöt
 
 **Miten yrityksen Microsoft 365 tietoturva rakennetaan käytännössä?**
 
-Perusrunko on monivaiheinen tunnistautuminen, selkeät käyttöoikeudet ja hallittu ulkoinen jakaminen. Kun vaatimukset kasvavat, mukaan otetaan kirjautumissäännöt, laitehallinta ja uhkien torjunta. Teknisen suojauksen rinnalle kannattaa lisätä [henkilöstön koulutus](https://www.tdp.fi/it-palvelut/tdp-kyberakatemia/), koska iso osa hyökkäyksistä kohdistuu ihmisiin.
+Perusrunko on monivaiheinen tunnistautuminen, selkeät käyttöoikeudet ja hallittu ulkoinen jakaminen. Kun vaatimukset kasvavat, mukaan otetaan kirjautumissäännöt, laitehallinta ja uhkien torjunta. Teknisen suojauksen rinnalle kannattaa lisätä [henkilöstön koulutus](/it-palvelut/tdp-kyberakatemia/), koska iso osa hyökkäyksistä kohdistuu ihmisiin.
 
 **Mitä eroa on Copilot Chatilla ja Microsoft 365 Copilotilla?**
 
@@ -240,4 +240,4 @@ Kyllä. Outlook, Teams ja Office sovellukset toimivat myös macOS ja mobiililait
 
 **Mitä tapahtuu tiedostoille ja sähköposteille, kun työntekijä lähtee?**
 
-Kun yhteiset tiedostot ovat SharePointissa ja tiimeissä, ne säilyvät yrityksen omistuksessa. Poistuvan käyttäjän postin ohjaukset, oikeuksien poisto ja tarvittava datan siirto hoidetaan hallitusti. [Palvelusopimuksella](https://www.tdp.fi/it-palvelut/it-ulkoistus/) me huolehdimme näistä sovitusti.
+Kun yhteiset tiedostot ovat SharePointissa ja tiimeissä, ne säilyvät yrityksen omistuksessa. Poistuvan käyttäjän postin ohjaukset, oikeuksien poisto ja tarvittava datan siirto hoidetaan hallitusti. [Palvelusopimuksella](/it-palvelut/it-ulkoistus/) me huolehdimme näistä sovitusti.

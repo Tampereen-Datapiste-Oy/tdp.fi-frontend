@@ -42,7 +42,7 @@ Jos kyseessä on muu laitetoimitus, kuten toimiston monitoimilaite tai työmaako
 
 Laitteiden hallinta tarkoittaa yrityksen käytössä olevien laitteiden rekisteröintiä, kapasiteetin seurantaa sekä ohjelmistopäivityksiä. Hallinnan tarkoitus on varmistaa laitteiden tehokas käyttö ja toimivuus käyttöiän yli.
 
-Työntekijöiden työvälineiden osalta tehokkaan hallinnan edellytys [keskitetty hallinta](https://www.tdp.fi/keskitetty-hallinta-opas-pk-yritykselle), johon liitetään käytössä olevat tietokoneet ja puhelimet. 
+Työntekijöiden työvälineiden osalta tehokkaan hallinnan edellytys [keskitetty hallinta](/keskitetty-hallinta-opas-pk-yritykselle), johon liitetään käytössä olevat tietokoneet ja puhelimet. 
 
 ### IT-laitteiden kierrätys
 

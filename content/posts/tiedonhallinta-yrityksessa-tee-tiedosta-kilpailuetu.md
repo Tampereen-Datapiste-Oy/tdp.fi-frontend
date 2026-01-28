@@ -36,7 +36,7 @@ Toinen varsin tavallinen tilanne on se, että tiedot ovat vain yksittäisten asi
 
 Yrityksen kasvun myötä syntyy herkästi päällekkäisiä tiedostoja ja ristiriitaista dataa. Saman asiakkaan tiedot voivat löytyä Excelistä, sähköposteista ja projektidokumenteista. Kaikissa näissä hieman erilaisena. Ilman yhteisiä käytänteitä siitä, että kuinka tietoja käsitellään; kuka päivittää mitäkin ja mihin tieto tallennetaan, syntyy epäselvyyksiä. Epäselvät tiedot puolestaan johtavat virheisiin ja väärinkäsityksiin. 
 
-Usein myös [tietoturva ja tietosuoja](https://www.tdp.fi/it-palvelut/tietoturva-total-ja-lite) unohtuvat. Pienessä yrityksessä ei välttämättä ole vastuuhenkilöä, joka tietää missä asiakastietoja säilytetään ja millä ehdoilla niitä käytetään. Dokumentteja voidaan jakaa linkeillä tai tallentaa suojaamattomille alustoille. Tämä on riskialtista niin tiedon saatavuuden, kuin myös tietosuojan näkökulmasta. GDPR ei tee kokoluokka poikkeuksia, vaan jokaisen yrityksen täytyy tietää, että missä henkilötiedot sijaitsevat ja kuka niistä vastaa.
+Usein myös [tietoturva ja tietosuoja](/it-palvelut/tietoturva-total-ja-lite) unohtuvat. Pienessä yrityksessä ei välttämättä ole vastuuhenkilöä, joka tietää missä asiakastietoja säilytetään ja millä ehdoilla niitä käytetään. Dokumentteja voidaan jakaa linkeillä tai tallentaa suojaamattomille alustoille. Tämä on riskialtista niin tiedon saatavuuden, kuin myös tietosuojan näkökulmasta. GDPR ei tee kokoluokka poikkeuksia, vaan jokaisen yrityksen täytyy tietää, että missä henkilötiedot sijaitsevat ja kuka niistä vastaa.
 
 Kasvun myötä syntyy yleensä myös uusia tarpeita. Tiimin kasvaessa ei enää riitä, jos tieto kulkee vapaamuotoisesti Slackissa tai kahvipöydässä. Tarvitaan yhteisiä ohjeita, selkeitä rakenteita ja toimivaa dokumentointia. Ilman näitä organisaation kehitys hidastuu. Uudet työntekijät joutuvat oppimaan hajanaisista sirpaleista ja työmäärä kasvaa, kun kaikki joutuvat keksimään pyörän uudelleen.
 
@@ -50,7 +50,7 @@ Tiedonhallinta ei ole mikään mystinen nörttien taikatemppu, se on yritysten s
 
 Yksi yksinkertainen ja tehokas askel on yhteisen kansiorakenteen luonti ja käytänteiden määrittely. Kun on tiedossa, että mihin asiat tallennetaan ja tiedostot on nimetty johdonmukaisesti, niin säästytään valtavalta määrältä turhaa työtä. Valmiit pohjat, kuten “AsiakasX_Tarjous_Päivämäärä.docx”, voivat vaikuttaa pieniltä asioilta, mutta niillä on iso vaikutus työn sujumiseen.
 
-Pilvipalvelut, kuten [Microsoft 365](https://www.tdp.fi/ohjelmistot/microsoft-365) ja [Google Workspace](https://www.tdp.fi/ohjelmistot/google-workspace), tarjoavat erinomaisen alustan tähän. Kun yrityksen dokumentit ovat samassa paikassa, päällekkäisistä versioista ja unohtuneista sähköposti liitteistä on mahdollista päästä eroon. Samalla reaaliaikainen yhteistyö tehostuu. Ei enää erillisiä tiedosto versioita, vaan yhteinen näkymä siihen, mitä ollaan tekemässä. On kuitenkin tärkeää tiedostaa, että näidenkin osalta hyödyt korostuvat vasta yhteisten pelisääntöjen sopimisen myötä. 
+Pilvipalvelut, kuten [Microsoft 365](/ohjelmistot/microsoft-365) ja [Google Workspace](/ohjelmistot/google-workspace), tarjoavat erinomaisen alustan tähän. Kun yrityksen dokumentit ovat samassa paikassa, päällekkäisistä versioista ja unohtuneista sähköposti liitteistä on mahdollista päästä eroon. Samalla reaaliaikainen yhteistyö tehostuu. Ei enää erillisiä tiedosto versioita, vaan yhteinen näkymä siihen, mitä ollaan tekemässä. On kuitenkin tärkeää tiedostaa, että näidenkin osalta hyödyt korostuvat vasta yhteisten pelisääntöjen sopimisen myötä. 
 
 Toinen usein turhan vähälle huomiolle jäävä asia on prosessien dokumentointi. Tähän ei välttämättä tarvita monimutkaisia kaavioita ja viikkojen suunnittelutyötä, vaan usein ihan se  riittää, että kirjataan miten tyypillinen myyntiprosessi etenee tai mitä vaiheita sisältyy asiakasprojektin toteutukseen. Yksinkertainenkin dokumentaatio helpottaa työntekijöiden perehdytystä ja tuo varmuutta tekemiseen. 
 
@@ -72,7 +72,7 @@ Yksi olennaisimmista asioista on tilanteen jatkuva seuraaminen. Tiedonhallinta e
 
 ## Tekoälystä apua arjen tietotyöhön
 
-AI ja erityisesti suuret kielimallit, kuten ChatGPT, ovat nousseet nopeasti osaksi yritysten arkea. Siinä missä tekoäly tuntui ennen kaukaiselta tulevaisuuden teknologialta, nykyisin se löytyy jo työpöydältä, osana esimerkiksi [Microsoftin](https://www.tdp.fi/ohjelmistot/microsoft-365) tai [Googlen](https://www.tdp.fi/ohjelmistot/google-workspace) toimistosovelluksia. Mitä tämä oikeastaan tarkoittaa käytännössä ja mitä on hyvä ottaa huomioon ennen kuin tekoälystä on apua.
+AI ja erityisesti suuret kielimallit, kuten ChatGPT, ovat nousseet nopeasti osaksi yritysten arkea. Siinä missä tekoäly tuntui ennen kaukaiselta tulevaisuuden teknologialta, nykyisin se löytyy jo työpöydältä, osana esimerkiksi [Microsoftin](/ohjelmistot/microsoft-365) tai [Googlen](/ohjelmistot/google-workspace) toimistosovelluksia. Mitä tämä oikeastaan tarkoittaa käytännössä ja mitä on hyvä ottaa huomioon ennen kuin tekoälystä on apua.
 
 Aloitetaan olennaisimmasta: tekoäly hyödyntää ainoastaan saatavilla olevaa tietoa, oli se sitten hyvin organisoitua tai täysin hajallaan. Jos dokumentteja on useissa paikoissa, versiot ristiriitaisia ja osa tiedoista vain työntekijöiden muistikuvissa, ei tekoäly voi taikoa tarkkoja ja hyödyllisiä vastauksia. “Roskaa sisään, roskaa ulos”, kuten sanonta kuuluu.
 
@@ -115,7 +115,7 @@ Kasvu tuo aina mukanaan uusia tarpeita. Ilman määriteltyjä ja selkeitä prose
 
 Meidän tehtävämme on tehdä tämä helpoksi. Ei monimutkaisia projekteja tai raskaita prosessikuvauksia, vaan konkreettista apua, joka perustuu ymmärrykseen yritysten arjesta. Kun pohja on kunnossa, sen päälle on hyvä rakentaa ja mikä tärkeintä: sinun tai tiimisi ei tarvitse enää tuhlata aikaa sellaiseen, mikä voidaan automatisoida, ohjeistaa tai ratkaista kertaheitolla.
 
-**[Ota yhteyttä](https://www.tdp.fi/tiedonhallinta-yrityksessa-tee-tiedosta-kilpailuetu#contact-form)** - rakennetaan yhdessä toimiva ja huoleton tiedonhallinta!
+**[Ota yhteyttä](/tiedonhallinta-yrityksessa-tee-tiedosta-kilpailuetu#contact-form)** - rakennetaan yhdessä toimiva ja huoleton tiedonhallinta!
 
 ## Usein kysytyt kysymykset tiedonhallinnasta (FAQ)
 
@@ -131,7 +131,7 @@ Hyvä tiedonhallinta säästää aikaa ja vähentää virheitä, kun kaikki doku
 
 Aloita tiedonhallinnan kehittäminen kartoittamalla, missä tärkeät tiedot ja dokumentit tällä hetkellä sijaitsevat (esim. sähköpostit, verkkolevyt, pilvipalvelut, paperit). Seuraavaksi määrittele selkeä kansiorakenne ja dokumenttien nimeämiskäytännöt (esim. Asiakkaat_2025_Projektinimi) sekä vastuuhenkilöt, eli kuka päivittää ja ylläpitää dokumenttien versioita. 
 
-Pilvipohjaiset palvelut kuten [Microsoft 365](https://www.tdp.fi/ohjelmistot/microsoft-365) (SharePoint, OneDrive) tai [Google Workspace](https://www.tdp.fi/ohjelmistot/google-workspace) (Google Drive) tarjoavat helpon tavan hallita dokumentteja sekä niiden pääsyoikeuksia ja mahdollistavat sujuvan versionhallinnan.
+Pilvipohjaiset palvelut kuten [Microsoft 365](/ohjelmistot/microsoft-365) (SharePoint, OneDrive) tai [Google Workspace](/ohjelmistot/google-workspace) (Google Drive) tarjoavat helpon tavan hallita dokumentteja sekä niiden pääsyoikeuksia ja mahdollistavat sujuvan versionhallinnan.
 
 ### 4. Miten tekoäly voi tehostaa tiedonhallintaa pienyrityksessä?
 
@@ -139,7 +139,7 @@ Tekoäly (AI) voi tehostaa tiedonhallintaa muun muassa automaattisella dokumentt
 
 ### 5. Mitä riskejä huonoon tiedonhallintaan liittyy ja miten tietoturva huomioidaan?
 
-Huono tiedonhallinta johtaa usein ajanhukkaan, virheellisiin tietoihin ja heikentyneeseen asiakaspalveluun, kun tiedostoja ei löydy tai versiot menevät sekaisin. Lisäksi tietoturvariskit kasvavat, jos dokumentit ja asiakastiedot ovat hajallaan ja käyttöoikeuksia ei ole määritelty selkeästi. GDPR -vaatimusten noudattamiseksi pienyrityksen on varmistettava, että henkilötiedot tallennetaan turvallisesti, säilytysajat on määritelty ja pääsynhallinta (roolit ja käyttöoikeudet) ovat kunnossa. Salattu tiedonsiirto, kaksivaiheinen tunnistautuminen (2FA) ja säännölliset [varmuuskopiot](https://www.tdp.fi/it-palvelut/varmuuskopiointi) ovat perus keinoja tietoturvan varmistamiseen.
+Huono tiedonhallinta johtaa usein ajanhukkaan, virheellisiin tietoihin ja heikentyneeseen asiakaspalveluun, kun tiedostoja ei löydy tai versiot menevät sekaisin. Lisäksi tietoturvariskit kasvavat, jos dokumentit ja asiakastiedot ovat hajallaan ja käyttöoikeuksia ei ole määritelty selkeästi. GDPR -vaatimusten noudattamiseksi pienyrityksen on varmistettava, että henkilötiedot tallennetaan turvallisesti, säilytysajat on määritelty ja pääsynhallinta (roolit ja käyttöoikeudet) ovat kunnossa. Salattu tiedonsiirto, kaksivaiheinen tunnistautuminen (2FA) ja säännölliset [varmuuskopiot](/it-palvelut/varmuuskopiointi) ovat perus keinoja tietoturvan varmistamiseen.
 
 ### 6. Milloin kannattaa kääntyä asiantuntijan puoleen tiedonhallinnassa?
 

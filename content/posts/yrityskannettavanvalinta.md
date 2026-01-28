@@ -93,7 +93,7 @@ Jos työntekijän kone katoaa, **BitLocker** salaa levyn automaattisesti. Varas 
 
 #### TDP Suositus
 
-Markkinoilla on paljon hyviä valmistajia. Pitkäaikaisen kokemuksemme perusteella olemme päätyneet suosittelemaan yrityskäyttöön erityisesti  **Dell Pro ja Dell Pro Max sarjoja.** [Linkin artikkelista](https://www.tdp.fi/dellin-kolme-uutta-sarjaa-mika-sopii-sinulle/) löydät lisätietoja näistä. Emme tuijota pelkkiä mallinumeroita, vaan katsomme kokonaisuutta: miten laite palvelee liiketoimintaa, kestää käyttöä ja istuu yrityksen arkeen.
+Markkinoilla on paljon hyviä valmistajia. Pitkäaikaisen kokemuksemme perusteella olemme päätyneet suosittelemaan yrityskäyttöön erityisesti  **Dell Pro ja Dell Pro Max sarjoja.** [Linkin artikkelista](/dellin-kolme-uutta-sarjaa-mika-sopii-sinulle/) löydät lisätietoja näistä. Emme tuijota pelkkiä mallinumeroita, vaan katsomme kokonaisuutta: miten laite palvelee liiketoimintaa, kestää käyttöä ja istuu yrityksen arkeen.
 
 Esimerkiksi **Dell Pro 14** ja **Dell Pro 16** ovat hyviä esimerkkejä tämän päivän “oikeasta peruskoneesta” pk-yritykseen. Niissä yhdistyvät tyypillisesti:
 
@@ -228,7 +228,7 @@ Halvempi rakenne tekee konerikosta todennäköisemmän. Kun kuluttajakone hajoaa
 
 Kun huomioidaan kaikki piilokulut: hukattu työaika, huolto- ja IT-kulut sekä kalliit käyttökatkot,  kalliimpi **yrityskannettava maksaa itsensä elinkaarensa aikana takaisin moninkertaisesti**, usein jo ensimmäisen vuoden sisällä. Ja mikä tärkeintä: olet antanut työntekijällesi välineen, joka sujuvoittaa työpäivää, lisää tuottavuutta ja osoittaa, että yrityksesi arvostaa hänen aikaansa.
 
-Toimiva tietotekniikka on yritystoiminnan perusta. Älä anna huonojen työvälineiden syödä katettasi. [Ota yhteyttä](https://www.tdp.fi/Yrityskannettavanvalinta#contact-form) ja laitetaan IT yhdessä kuntoon!
+Toimiva tietotekniikka on yritystoiminnan perusta. Älä anna huonojen työvälineiden syödä katettasi. [Ota yhteyttä](/Yrityskannettavanvalinta#contact-form) ja laitetaan IT yhdessä kuntoon!
 
 ![Kuvituskuva: Dell Pro AI PC etupaneeli](../../static/assets/kuva-dell_14_copilot.jpeg "Dell AI Copilot PC on hyvä vaihtoehto laatua arvostavan pk -yrityksen työntekijöille")
 
