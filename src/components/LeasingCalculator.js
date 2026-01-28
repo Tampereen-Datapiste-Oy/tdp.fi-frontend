@@ -581,7 +581,7 @@ const LeasingContactForm = ({
       tableRows.push([
         device.name,
         device.count,
-        PriceFormat.format(device.totalPrice),
+        PriceFormat.format(device.price),
       ])
       if (device.peripherals && device.peripherals.length > 0) {
         for (const peripheral of device.peripherals) {
