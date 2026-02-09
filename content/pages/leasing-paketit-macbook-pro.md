@@ -8,17 +8,12 @@ head:
     suoraostolla: MacBook Pro, MacBook Air ja Mac mini huippusuorituskyvyllä ja
     tyylikkäällä designilla. "
   keywords: Ultrabook, Macbook Pro, MacBook Air, Mac mini
-contactForm: Ota yhteyttä
 breadcrumb:
   - path: /
     label: TDP
   - path: /it-laitteet/
     label: IT-laitteet
-  - label: Tietokone-leasing
-    path: /tietokone-leasing
-  - label: Esimerkkipaketit
-    path: /tietokone-leasing-esimerkkipaketit
-  - label: Ultrabook
+contactForm: Ota yhteyttä
 ---
 # Apple-laitteet – MacBook Pro, MacBook Air ja Mac Mini
 
