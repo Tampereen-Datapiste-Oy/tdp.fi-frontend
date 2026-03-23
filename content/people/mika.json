@@ -1,5 +1,5 @@
 {
-  "isEmployee": true,
+  "isEmployee": false,
   "name": "Mika",
   "title": "Työntekijä",
   "image": "/assets/mika-makinen-1000x1000-tinified.png"
