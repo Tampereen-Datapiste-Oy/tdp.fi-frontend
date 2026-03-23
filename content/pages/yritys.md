@@ -10,7 +10,6 @@ head:
   keywords: yritys, yhteystiedot, Tampereen Datapiste, TDP
 contactForm: Ota yhteyttä
 ---
-
 ![TDP:n päätoimipiste.](../../static/assets/tdp-päätoimipiste-tinified.jpg)
 
 # Pienten ja keskisuurten yritysten IT-kumppani
@@ -30,8 +29,6 @@ Toteutamme kaikki tarvitsemanne IT-palvelut ja räätälöimme ne toiveidenne mu
 ### Myynti
 
 P﻿auli Aalto | 040 748 3818 | pauli.aalto@tdp.fi
-
-M﻿ika Mäkinen | 040 632 7090 | mika.makinen@tdp.fi
 
 ### Tuki
 
@@ -85,20 +82,20 @@ Seuraa meitä sosiaalisen median kanavissamme:
 
 #### Tutustu
 
-- <a href="/uutiset">Ajankohtaista</a>
-- <a href="/yritys/hinnasto">Palveluhinnasto</a>
-- <a href="/assets/TDP-Laskutustiedot-2023.pdf" target="_blank">Laskutustiedot (PDF)</a>
-- <a href="/assets/tietosuojaseloste.pdf" target="_blank">Tietosuojaseloste (PDF)</a>
-- <a href="/assets/YSE_IT2022_Suomi.pdf" target="_blank">Yleiset sopimusehdot (PDF)</a>
+* <a href="/uutiset">Ajankohtaista</a>
+* <a href="/yritys/hinnasto">Palveluhinnasto</a>
+* <a href="/assets/TDP-Laskutustiedot-2023.pdf" target="_blank">Laskutustiedot (PDF)</a>
+* <a href="/assets/tietosuojaseloste.pdf" target="_blank">Tietosuojaseloste (PDF)</a>
+* <a href="/assets/YSE_IT2022_Suomi.pdf" target="_blank">Yleiset sopimusehdot (PDF)</a>
 
 #### Toimiston yhteystiedot
 
-- Avoinna arkisin klo 9.00 - 16.00
-- Myynti: myynti@tdp.fi
-- Tukipyynnöt: tuki@tdp.fi
-- 010 292 1640
-- Pirkkalaistie 1
-- 37100 Nokia
+* Avoinna arkisin klo 9.00 - 16.00
+* Myynti: myynti@tdp.fi
+* Tukipyynnöt: tuki@tdp.fi
+* 010 292 1640
+* Pirkkalaistie 1
+* 37100 Nokia
 
 <a href="https://goo.gl/maps/jTq2U2bC1NSFPXEh9">Katso osoite kartalla</a>
 
