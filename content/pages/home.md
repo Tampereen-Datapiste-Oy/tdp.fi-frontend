@@ -88,7 +88,7 @@ Lue tyytyväisten asiakkaidemme kokemuksista ja liity heidän joukkoonsa!
 
 <div className="HeroBlockImage">
 
-![Ohjelmistot yrityksille TDP:ltä.](../../static/assets/ota-yhteytta-myynti-tinified.png)
+![Ohjelmistot yrityksille TDP:ltä.](../../static/assets/ota-yhteytta-myynti-uusi-numero.avif)
 
 </div>
 
