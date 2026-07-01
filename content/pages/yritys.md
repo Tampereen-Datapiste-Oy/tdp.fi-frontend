@@ -28,12 +28,11 @@ Toteutamme kaikki tarvitsemanne IT-palvelut ja räätälöimme ne toiveidenne mu
 
 ### Myynti
 
-<Pasi Heino>
+
 
 Pasi Heino | 040 632 7090 | pasi.heino@tdp.fi\
 \
 P﻿auli Aalto | 040 748 3818 | pauli.aalto@tdp.fi
-
 
 ### Tuki
 
