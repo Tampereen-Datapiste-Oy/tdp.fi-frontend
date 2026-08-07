@@ -49,4 +49,4 @@ Tuki-, huolto- ja ylläpitosopimukset saat edulliseen kuukausihintaan. Tiedustel
 
 Pauli Aalto | 040 748 3818 | pauli.aalto@tdp.fi
 
-Mika Mäkinen | 040 632 7090 | mika.makinen@tdp.fi
+Pasi Heino | 040 632 7090 | pasi.heino@tdp.fi
