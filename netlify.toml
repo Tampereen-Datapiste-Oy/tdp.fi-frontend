@@ -45,7 +45,7 @@ status = 301
 force = false
 
 [[redirects]]
-from = "/T2H-AI-kysely"
+from = "/T2H-AI-lisenssitilaus"
 to = "https://docs.google.com/forms/d/e/1FAIpQLSduBfQgV_REGstoqg_V8zc-8yhHgi2J3I3nb5Zuj-WtI508Jw/viewform?usp=publish-editor"
 status = 301
 force = false
