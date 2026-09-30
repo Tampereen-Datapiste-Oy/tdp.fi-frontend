@@ -33,8 +33,8 @@
 
 #test for redirection of airtable forms
 [[redirects]]
-from ="/AsiakasLomakeCapfull"
-to ="https://airtable.com/appqRsvkbnYm1rcTU/pagIrUkhxwVAniYwy/form"
+from ="/AsiakasLomakeProviko"
+to ="https://airtable.com/appqRsvkbnYm1rcTU/pag0lyS2SU9luIEFs/form"
 status = 301
 force = false
 
@@ -49,3 +49,5 @@ from = "/T2H-AI-lisenssitilaus"
 to = "https://docs.google.com/forms/d/e/1FAIpQLSduBfQgV_REGstoqg_V8zc-8yhHgi2J3I3nb5Zuj-WtI508Jw/viewform?usp=publish-editor"
 status = 301
 force = false
+
+
